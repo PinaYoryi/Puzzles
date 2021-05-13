@@ -1,0 +1,8 @@
+﻿  COPY DEPENDENCIES
+  comprobando si hay que a copiar
+  fin
+main.obj : error LNK2019: símbolo externo "public: bool __thiscall PinaMotor::init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@PinaMotor@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) sin resolver al que se hace referencia en la función _main
+main.obj : error LNK2019: símbolo externo "public: bool __thiscall PinaMotor::launch(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?launch@PinaMotor@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) sin resolver al que se hace referencia en la función _main
+main.obj : error LNK2019: símbolo externo "public: void __thiscall PinaMotor::close(void)" (?close@PinaMotor@@QAEXXZ) sin resolver al que se hace referencia en la función _main
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\..\P32021\lib\PiñaMotor_d.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\PuzzlesGame_d.exe : fatal error LNK1120: 3 externos sin resolver

@@ -1,0 +1,716 @@
+20:04:03: Creating resource group General
+20:04:03: Creating resource group OgreInternal
+20:04:03: Creating resource group OgreAutodetect
+20:04:03: SceneManagerFactory for type 'DefaultSceneManager' registered.
+20:04:03: Registering ResourceManager for type Material
+20:04:03: Registering ResourceManager for type Mesh
+20:04:03: Registering ResourceManager for type Skeleton
+20:04:03: MovableObjectFactory for type 'ParticleSystem' registered.
+20:04:03: ArchiveFactory for archive type FileSystem registered.
+20:04:03: ArchiveFactory for archive type Zip registered.
+20:04:03: ArchiveFactory for archive type EmbeddedZip registered.
+20:04:03: DDS codec registering
+20:04:03: ETC codec registering
+20:04:03: ASTC codec registering
+20:04:03: Registering ResourceManager for type HighLevelGpuProgram
+20:04:03: Registering ResourceManager for type Compositor
+20:04:03: MovableObjectFactory for type 'Entity' registered.
+20:04:03: MovableObjectFactory for type 'Light' registered.
+20:04:03: MovableObjectFactory for type 'BillboardSet' registered.
+20:04:03: MovableObjectFactory for type 'ManualObject' registered.
+20:04:03: MovableObjectFactory for type 'BillboardChain' registered.
+20:04:03: MovableObjectFactory for type 'RibbonTrail' registered.
+20:04:03: Loading library C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/PuzzlesGame/bin/.\RenderSystem_Direct3D11_d.dll
+20:04:04: Installing plugin: D3D11 RenderSystem
+20:04:04: D3D11: Direct3D11 Rendering Subsystem created.
+20:04:04: D3D11: Driver Detection Starts
+20:04:04: D3D11: "NVIDIA GeForce GTX 1060 3GB"
+20:04:04: D3D11: "Microsoft Basic Render Driver (software)"
+20:04:04: D3D11: Driver Detection Ends
+20:04:05: Plugin successfully installed
+20:04:05: Loading library C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/PuzzlesGame/bin/.\Plugin_ParticleFX_d.dll
+20:04:05: Installing plugin: ParticleFX
+20:04:05: Particle Emitter Type 'Point' registered
+20:04:05: Particle Emitter Type 'Box' registered
+20:04:05: Particle Emitter Type 'Ellipsoid' registered
+20:04:05: Particle Emitter Type 'Cylinder' registered
+20:04:05: Particle Emitter Type 'Ring' registered
+20:04:05: Particle Emitter Type 'HollowEllipsoid' registered
+20:04:05: Particle Affector Type 'LinearForce' registered
+20:04:05: Particle Affector Type 'ColourFader' registered
+20:04:05: Particle Affector Type 'ColourFader2' registered
+20:04:05: Particle Affector Type 'ColourImage' registered
+20:04:05: Particle Affector Type 'ColourInterpolator' registered
+20:04:05: Particle Affector Type 'Scaler' registered
+20:04:05: Particle Affector Type 'Rotator' registered
+20:04:05: Particle Affector Type 'DirectionRandomiser' registered
+20:04:05: Particle Affector Type 'DeflectorPlane' registered
+20:04:05: Particle Affector Type 'TextureAnimator' registered
+20:04:05: Plugin successfully installed
+20:04:05: Loading library C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/PuzzlesGame/bin/.\Codec_STBI_d.dll
+20:04:05: stb_image - v2.23 - public domain image loader
+20:04:05: Supported formats: jpeg,jpg,png,bmp,psd,tga,gif,pic,ppm,pgm,hdr
+20:04:05: *-*-* OGRE Initialising
+20:04:05: *-*-* Version 1.12.11 (Rhagorthua)
+20:04:05: D3D11: RenderSystem Option: Allow NVPerfHUD = No
+20:04:05: D3D11: RenderSystem Option: Backbuffer Count = Auto
+20:04:05: D3D11: RenderSystem Option: Debug Layer = Off
+20:04:05: D3D11: RenderSystem Option: Driver type = Hardware
+20:04:05: D3D11: RenderSystem Option: FSAA = 1
+20:04:05: D3D11: RenderSystem Option: Floating-point mode = Fastest
+20:04:05: D3D11: RenderSystem Option: Full Screen = No
+20:04:05: D3D11: RenderSystem Option: Information Queue Exceptions Bottom Level = No information queue exceptions
+20:04:05: D3D11: RenderSystem Option: Max Requested Feature Levels = 11.0
+20:04:05: D3D11: RenderSystem Option: Min Requested Feature Levels = 9.1
+20:04:05: D3D11: RenderSystem Option: Rendering Device = (default)
+20:04:05: D3D11: RenderSystem Option: Reversed Z-Buffer = No
+20:04:05: D3D11: RenderSystem Option: VSync = Yes
+20:04:05: D3D11: RenderSystem Option: VSync Interval = 1
+20:04:05: D3D11: RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+20:04:05: D3D11: RenderSystem Option: sRGB Gamma Conversion = No
+20:04:05: CPU Identifier & Features
+20:04:05: -------------------------
+20:04:05:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz
+20:04:05:  *          SSE: yes
+20:04:05:  *         SSE2: yes
+20:04:05:  *         SSE3: yes
+20:04:05:  *        SSE41: yes
+20:04:05:  *        SSE42: yes
+20:04:05:  *          MMX: yes
+20:04:05:  *       MMXEXT: yes
+20:04:05:  *        3DNOW: no
+20:04:05:  *     3DNOWEXT: no
+20:04:05:  *         CMOV: yes
+20:04:05:  *          TSC: yes
+20:04:05:  *INVARIANT TSC: yes
+20:04:05:  *          FPU: yes
+20:04:05:  *          PRO: yes
+20:04:05:  *           HT: no
+20:04:05: -------------------------
+20:04:05: D3D11: Subsystem Initialising
+20:04:05: D3D11: Driver Detection Starts
+20:04:05: D3D11: "NVIDIA GeForce GTX 1060 3GB"
+20:04:05: D3D11: "Microsoft Basic Render Driver (software)"
+20:04:05: D3D11: Driver Detection Ends
+20:04:05: D3D11: Requested "(default)", selected "NVIDIA GeForce GTX 1060 3GB"
+20:04:05: D3D11: Device Feature Level 11.0
+20:04:05: ***************************************
+20:04:05: *** D3D11: Subsystem Initialized OK ***
+20:04:05: ***************************************
+20:04:06: RenderSystem::_createRenderWindow "Test", 800x600 windowed  miscParams: FSAA=1 externalWindowHandle=7278090 gamma=No vsync=Yes 
+20:04:06: D3D11: Created D3D11 Rendering Window 'Test' : 800x600, 32bpp
+20:04:06: Registering ResourceManager for type Texture
+20:04:06: Registering ResourceManager for type GpuProgram
+20:04:06: RenderSystem capabilities
+20:04:06: -------------------------
+20:04:06: RenderSystem Name: Direct3D11 Rendering Subsystem
+20:04:06: GPU Vendor: nvidia
+20:04:06: Device Name: NVIDIA GeForce GTX 1060 3GB
+20:04:06: Driver Version: 27.21.14.6140
+20:04:06:  * Fixed function pipeline: no
+20:04:06:  * 32-bit index buffers: yes
+20:04:06:  * Hardware stencil buffer: yes
+20:04:06:    - Stencil depth: 8
+20:04:06:    - Two sided stencil support: yes
+20:04:06:    - Wrap stencil values: yes
+20:04:06:  * Vertex programs: yes
+20:04:06:    - Number of floating-point constants: 512
+20:04:06:    - Number of integer constants: 16
+20:04:06:    - Number of boolean constants: 16
+20:04:06:  * Fragment programs: yes
+20:04:06:    - Number of floating-point constants: 512
+20:04:06:    - Number of integer constants: 16
+20:04:06:    - Number of boolean constants: 16
+20:04:06:  * Geometry programs: yes
+20:04:06:    - Number of floating-point constants: 512
+20:04:06:    - Number of integer constants: 16
+20:04:06:    - Number of boolean constants: 16
+20:04:06:  * Tessellation Hull programs: yes
+20:04:06:    - Number of floating-point constants: 512
+20:04:06:    - Number of integer constants: 16
+20:04:06:    - Number of boolean constants: 16
+20:04:06:  * Tessellation Domain programs: yes
+20:04:06:    - Number of floating-point constants: 512
+20:04:06:    - Number of integer constants: 16
+20:04:06:    - Number of boolean constants: 16
+20:04:06:  * Compute programs: yes
+20:04:06:    - Number of floating-point constants: 512
+20:04:06:    - Number of integer constants: 16
+20:04:06:    - Number of boolean constants: 16
+20:04:06:  * Supported Shader Profiles: cs_4_0 cs_4_1 cs_5_0 ds_5_0 gs_4_0 gs_4_1 gs_5_0 hlsl hs_5_0 ps_2_0 ps_2_a ps_2_b ps_3_0 ps_4_0 ps_4_0_level_9_1 ps_4_0_level_9_3 ps_4_1 ps_5_0 vs_2_0 vs_2_a vs_3_0 vs_4_0 vs_4_0_level_9_1 vs_4_0_level_9_3 vs_4_1 vs_5_0
+20:04:06:  * Read-back compiled shader: yes
+20:04:06:  * Number of vertex attributes: 32
+20:04:06:  * Textures
+20:04:06:    - Number of texture units: 16
+20:04:06:    - Floating point: yes
+20:04:06:    - Non-power-of-two: yes
+20:04:06:    - 1D textures: yes
+20:04:06:    - 2D array textures: yes
+20:04:06:    - 3D textures: yes
+20:04:06:    - Anisotropic filtering: yes
+20:04:06:  * Texture Compression: yes
+20:04:06:    - DXT: yes
+20:04:06:    - VTC: no
+20:04:06:    - PVRTC: no
+20:04:06:    - ATC: no
+20:04:06:    - ETC1: no
+20:04:06:    - ETC2: no
+20:04:06:    - BC4/BC5: no
+20:04:06:    - BC6H/BC7: yes
+20:04:06:    - ASTC: no
+20:04:06:    - Mipmaps for compressed formats: no
+20:04:06:  * Vertex Buffers
+20:04:06:    - VET_UBYTE4 element type: yes
+20:04:06:    - Render to Vertex Buffer: yes
+20:04:06:    - Instance Data: yes
+20:04:06:    - Primitive Restart: yes
+20:04:06:  * Vertex texture fetch: yes
+20:04:06:    - Max vertex textures: 4
+20:04:06:    - Vertex textures shared: yes
+20:04:06:  * Read/Write Buffers: no
+20:04:06:  * Hardware Occlusion Query: yes
+20:04:06:  * User clip planes: yes
+20:04:06:  * Infinite far plane projection: yes
+20:04:06:  * Depth clamping: yes
+20:04:06:  * Hardware render-to-texture: yes
+20:04:06:    - Multiple Render Targets: 8
+20:04:06:    - With different bit depths: yes
+20:04:06:  * Point Sprites: no
+20:04:06:  * Wide Lines: no
+20:04:06:  * Hardware Gamma: no
+20:04:06: DefaultWorkQueue('Root') initialising on thread 14380.
+20:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 4972 starting.
+20:04:06: DefaultWorkQueue('Root')::WorkerFunc - thread 7072 starting.
+20:04:06: Particle Renderer Type 'billboard' registered
+20:04:06: Creating resource group BSPWorld
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/oa_rpg3dm2.pk3' of type 'Zip' to resource group 'BSPWorld'
+20:04:06: Creating resource group Essential
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/thumbnails' of type 'FileSystem' to resource group 'Essential'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/packs/SdkTrays.zip' of type 'Zip' to resource group 'Essential'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/packs/profiler.zip' of type 'Zip' to resource group 'Essential'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/PBR' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/PBR/filament' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/textures/PBR' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/fonts' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/programs' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/scripts' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/textures' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/textures/terrain' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/models' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/particle' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/DeferredShadingMedia' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/DeferredShadingMedia/DeferredShading/post' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/PCZAppMedia' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/scripts/SSAO' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/textures/SSAO' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/volumeTerrain' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/CSMShadows' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/HLMS' of type 'FileSystem' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/cubemap.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/dragon.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/fresneldemo.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/ogretestmap.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/ogredance.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/Sinbad.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/skybox.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/volumeTerrain/volumeTerrainBig.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/DamagedHelmet.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/packs/filament_shaders.zip' of type 'Zip' to resource group 'General'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/ShadowVolume' of type 'FileSystem' to resource group 'OgreInternal'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/RTShaderLib/materials' of type 'FileSystem' to resource group 'OgreInternal'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/RTShaderLib/GLSL' of type 'FileSystem' to resource group 'OgreInternal'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/RTShaderLib/HLSL_Cg' of type 'FileSystem' to resource group 'OgreInternal'
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Media/Terrain/' of type 'FileSystem' to resource group 'OgreInternal'
+20:04:06: Creating resource group Tests
+20:04:06: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Tests/Media' of type 'FileSystem' to resource group 'Tests'
+20:04:07: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/materials/programs/HLSL' of type 'FileSystem' to resource group 'General'
+20:04:07: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/RTShaderLib/materials' of type 'FileSystem' to resource group 'General'
+20:04:07: Added resource location 'C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/P32021/dependencies/Ogre/Src/Samples/Media/RTShaderLib/HLSL' of type 'FileSystem' to resource group 'General'
+20:04:07: Parsing scripts for resource group BSPWorld
+20:04:07: Finished parsing scripts for resource group BSPWorld
+20:04:07: Creating resources for group BSPWorld
+20:04:07: All done
+20:04:07: Parsing scripts for resource group Essential
+20:04:07: Parsing script SdkTrays.material
+20:04:07: Parsing script OgreProfiler.material
+20:04:07: Finished parsing scripts for resource group Essential
+20:04:07: Creating resources for group Essential
+20:04:07: All done
+20:04:07: Parsing scripts for resource group General
+20:04:07: Parsing script pbr.program
+20:04:07: Parsing script pbr_filament.program
+20:04:07: Parsing script Examples.program
+20:04:07: Program 'Ogre/BasicVertexPrograms/AmbientOneTextureHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(31): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(32): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/HardwareMorphAnimationHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(174): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(175): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/HardwarePoseAnimationHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(224): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(225): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/HardwareMorphAnimationWithNormalsHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(275): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(276): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(277): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(278): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/HardwarePoseAnimationWithNormalsHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(314): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(315): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(316): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Examples.program(317): Named constants have not been initialised, perhaps a compile error
+20:04:07: Parsing script Instancing.program
+20:04:07: Program 'Ogre/Instancing/shadow_caster_hlsl_ps' is not supported: Cannot locate resource pssm.cg in resource group General.
+20:04:07: Parsing script StdQuad_vp.program
+20:04:07: Program 'Ogre/Compositor/StdQuad_HLSL_vp' is not supported: Cannot locate resource StdQuad_vp.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in StdQuad_vp.program(114): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/Compositor/StdQuad_Tex2_HLSL_vp' is not supported: Cannot locate resource StdQuad_vp.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in StdQuad_vp.program(126): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/Compositor/StdQuad_Tex2a_HLSL_vp' is not supported: Cannot locate resource StdQuad_vp.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in StdQuad_vp.program(138): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/Compositor/StdQuad_Tex3_HLSL_vp' is not supported: Cannot locate resource StdQuad_vp.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in StdQuad_vp.program(150): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/Compositor/StdQuad_Tex4_HLSL_vp' is not supported: Cannot locate resource StdQuad_vp.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in StdQuad_vp.program(162): Named constants have not been initialised, perhaps a compile error
+20:04:07: Parsing script deferred_post.program
+20:04:07: Parsing script ShadowCaster.program
+20:04:07: Parsing script glTF2_PBR.material
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(68): Parameter called u_BaseColorSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(69): Parameter called u_NormalSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(70): Parameter called u_EmissiveSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(71): Parameter called u_MetallicRoughnessSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(72): Parameter called u_OcclusionSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(73): Parameter called u_DiffuseEnvSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(74): Parameter called u_SpecularEnvSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(75): Parameter called u_brdfLUT does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Parsing script filament.material
+20:04:07: Parsing script AdaptivePNTrianglesTessellation.material
+20:04:07: Program 'Ogre/PNTrianglesTessellation/adaptive_tessellation_hs' is not supported: Cannot compile D3D11 high-level shader Ogre/PNTrianglesTessellation/adaptive_tessellation_hs Errors:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\adaptive_tessellation.hlsl(148,67-71): error X4576: Input signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(208): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(209): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/PNTrianglesTessellation/adaptivePNTriangles_tessellation_vs' is not supported: Cannot compile D3D11 high-level shader Ogre/PNTrianglesTessellation/adaptivePNTriangles_tessellation_vs Errors:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\adaptivePNTriangles_tessellation.hlsl(92,35-58): error X4577: Not all elements of SV_Position were written
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\adaptivePNTriangles_tessellation.hlsl(92,35-58): error X4576: Output signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(258): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(259): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(260): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/PNTrianglesTessellation/adaptivePNTriangles_tessellation_hs' is not supported: Cannot compile D3D11 high-level shader Ogre/PNTrianglesTessellation/adaptivePNTriangles_tessellation_hs Errors:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\adaptivePNTriangles_tessellation.hlsl(127,76-85): error X4576: Input signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(274): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(275): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'Ogre/PNTrianglesTessellation/adaptivePNTriangles_tessellation_ds' is not supported: Cannot compile D3D11 high-level shader Ogre/PNTrianglesTessellation/adaptivePNTriangles_tessellation_ds Errors:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\adaptivePNTriangles_tessellation.hlsl(213,152-156): error X4576: Input signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(287): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(288): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in AdaptivePNTrianglesTessellation.material(289): Named constants have not been initialised, perhaps a compile error
+20:04:07: Parsing script ASCII.material
+20:04:07: Program 'Ogre/Compositor/ASCIIFPCg' is not supported: Cannot locate resource ASCIIFP.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in ASCII.material(8): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in ASCII.material(9): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in ASCII.material(10): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in ASCII.material(11): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in ASCII.material(12): Named constants have not been initialised, perhaps a compile error
+20:04:07: Parsing script BlackAndWhite.material
+20:04:07: Program 'Ogre/Compositor/B&W_Cg_FP' is not supported: Cannot locate resource GrayScale.cg in resource group General.
+20:04:07: Parsing script Bloom2.material
+20:04:07: Program 'BlurH_ps20_hlsl' is not supported: Cannot locate resource BlurH_ps20.cg in resource group General.
+20:04:07: Program 'Blur_vs11_hlsl' is not supported: Cannot locate resource Blur_vs11.cg in resource group General.
+20:04:07: Program 'BlurV_ps20_hlsl' is not supported: Cannot locate resource BlurV_ps20.cg in resource group General.
+20:04:07: Program 'Bloom2_ps20_hlsl' is not supported: Cannot locate resource Bloom2_ps20.cg in resource group General.
+20:04:07: Error: ScriptCompiler - invalid parameters in Bloom2.material(193): Named constants have not been initialised, perhaps a compile error
+20:04:07: Error: ScriptCompiler - invalid parameters in Bloom2.material(194): Named constants have not been initialised, perhaps a compile error
+20:04:07: Program 'BrightBloom2_ps20_hlsl' is not supported: Cannot locate resource BrightBloom2_ps20.cg in resource group General.
+20:04:07: Parsing script CompositorDemo.material
+20:04:07: Parsing script Compute.material
+20:04:07: Parsing script DamagedHelmet.material
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(68): Parameter called u_BaseColorSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(69): Parameter called u_NormalSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(70): Parameter called u_EmissiveSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(71): Parameter called u_MetallicRoughnessSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(72): Parameter called u_OcclusionSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(73): Parameter called u_DiffuseEnvSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(74): Parameter called u_SpecularEnvSampler does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Error: ScriptCompiler - invalid parameters in glTF2_PBR.material(75): Parameter called u_brdfLUT does not exist. Known names are: u_BaseColorFactor u_Camera u_EmissiveFactor u_LightColor u_LightDirection u_MetallicRoughnessValues u_NormalScale u_OcclusionStrength u_ScaleDiffBaseMR u_ScaleFGDSpec u_ScaleIBLAmbient 
+20:04:07: Parsing script DepthShadowmap.material
+20:04:08: Parsing script Dither.material
+20:04:08: Program 'Ogre/Compositor/Dither_Cg_FP' is not supported: Cannot locate resource DitherFP.cg in resource group General.
+20:04:08: Parsing script DOF.material
+20:04:08: Parsing script DualQuaternion.material
+20:04:08: Parsing script Embossed.material
+20:04:08: Program 'Ogre/Compositor/Embossed_Cg_FP' is not supported: Cannot locate resource GrayScale.cg in resource group General.
+20:04:08: Parsing script Examples-Advanced.material
+20:04:08: Program 'Ogre/CelShadingVPhlsl' is not supported: Cannot locate resource Example_CelShading.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(35): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(36): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(37): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(38): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Ogre/CelShadingFPhlsl' is not supported: Cannot locate resource Example_CelShading.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(134): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(136): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/BumpMapVPHLSL' is not supported: Cannot locate resource Example_BumpMapping.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(349): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(350): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/BumpMapFPHLSL' is not supported: Cannot locate resource Example_BumpMapping.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(356): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(349): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(350): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(356): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/BumpMapVPSpecularHLSL' is not supported: Cannot locate resource Example_BumpMapping.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(435): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(436): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(437): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/BumpMapFPSpecularHLSL' is not supported: Cannot locate resource Example_BumpMapping.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(443): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(444): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(349): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(350): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(356): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/FresnelRefractReflectVPCg' is not supported: Cannot locate resource Example_Fresnel.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(583): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(584): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(585): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(586): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(587): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(588): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/FresnelRefractReflectFPCg' is not supported: Cannot locate resource Example_Fresnel.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(593): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(594): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(595): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(596): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(597): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(349): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(350): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(356): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(349): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(350): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(356): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(435): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(436): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(437): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(443): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(444): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/TextureArrayVScg' is not supported: Cannot locate resource Example_TextureArrayVS.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples-Advanced.material(720): Named constants have not been initialised, perhaps a compile error
+20:04:08: Parsing script Examples-DynTex.material
+20:04:08: Parsing script Examples-Water.material
+20:04:08: Parsing script Examples.material
+20:04:08: Program 'Examples/ShowTangents_vHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples.material(1551): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/ShowNormals_vHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Examples.material(1577): Named constants have not been initialised, perhaps a compile error
+20:04:08: Program 'Examples/ShowUV_pHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:08: Program 'Examples/ShowUVdir3D_pHLSL' is not supported: Cannot locate resource Example_Basic.cg in resource group General.
+20:04:08: Parsing script facial.material
+20:04:08: Parsing script FluidSim.material
+20:04:08: Parsing script Glass.material
+20:04:08: Program 'Ogre/Compositor/GlassFP_cg' is not supported: Cannot locate resource GlassFP.cg in resource group General.
+20:04:08: Parsing script Hair.material
+20:04:08: Parsing script Halftone.material
+20:04:08: Program 'Ogre/Compositor/HalftoneFPCg' is not supported: Cannot locate resource HalftoneFP.cg in resource group General.
+20:04:08: Error: ScriptCompiler - invalid parameters in Halftone.material(8): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Halftone.material(9): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Halftone.material(10): Named constants have not been initialised, perhaps a compile error
+20:04:08: Error: ScriptCompiler - invalid parameters in Halftone.material(11): Named constants have not been initialised, perhaps a compile error
+20:04:08: Parsing script hdr.material
+20:04:08: Parsing script HeatVision.material
+20:04:08: Parsing script Hurt.material
+20:04:08: Parsing script HWInstancing.material
+20:04:08: Parsing script HW_VTFInstancing.material
+20:04:08: Parsing script HW_VTF_LUTInstancing.material
+20:04:08: Parsing script Invert.material
+20:04:08: Program 'Ogre/Compositor/Invert_Cg_FP' is not supported: Cannot locate resource InvertFP.cg in resource group General.
+20:04:08: Parsing script Island.material
+20:04:09: Error: ScriptCompiler - number expected in Island.material(246): <extraInfo> parameter required by constant definition light_position
+20:04:09: Warnings while compiling D3D11 high-level shader Ogre/Island/WaterPatchDS:
+Island.hlsl(503,25): warning X3578: Output value 'WaterPatchDS' is not completely initialized
+
+20:04:09: Error: ScriptCompiler - number expected in Island.material(329): <extraInfo> parameter required by constant definition light_position
+20:04:09: Program 'Ogre/Island/WaterPatchPS' is not supported: Cannot compile D3D11 high-level shader Ogre/Island/WaterPatchPS Errors:
+error X3501: 'WaterPatchPS': entrypoint not found
+
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(342): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(343): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(344): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(345): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - number expected in Island.material(346): <extraInfo> parameter required by constant definition light_position
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(347): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(348): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(349): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(350): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Island.material(351): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script IsoSurf.material
+20:04:09: Parsing script Laplace.material
+20:04:09: Program 'Ogre/Compositor/Laplace_Cg_FP' is not supported: Cannot locate resource LaplaceFP.cg in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in Laplace.material(36): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Laplace.material(37): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script LigthShafts.material
+20:04:09: Program 'LightShafts_VP_HLSL' is not supported: Cannot locate resource LightShafts.vert in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in LigthShafts.material(43): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in LigthShafts.material(44): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in LigthShafts.material(45): Named constants have not been initialised, perhaps a compile error
+20:04:09: Program 'LightShafts_FP_HLSL' is not supported: Cannot locate resource LightShafts.frag in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in LigthShafts.material(74): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in LigthShafts.material(75): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in LigthShafts.material(76): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script MotionBlur.material
+20:04:09: Program 'Ogre/Compositor/Combine_HLSL_fp' is not supported: Cannot locate resource Combine_fp.cg in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in MotionBlur.material(8): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script MRTtest.material
+20:04:09: Parsing script NightVision.material
+20:04:09: Parsing script Ocean.material
+20:04:09: Program 'HLSL4/OceanVS' is not supported: Cannot locate resource oceanHLSL_Cg.vert in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(7): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(8): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(9): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(10): Named constants have not been initialised, perhaps a compile error
+20:04:09: Program 'HLSL4/OceanFS' is not supported: Cannot locate resource oceanHLSL_Cg.frag in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(70): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(71): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(72): Named constants have not been initialised, perhaps a compile error
+20:04:09: Program 'HLSL4/Ocean2VS' is not supported: Cannot locate resource Ocean2HLSL_Cg.vert in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(100): Named constants have not been initialised, perhaps a compile error
+20:04:09: Program 'HLSL4/Ocean2FS' is not supported: Cannot locate resource Ocean2HLSL_Cg.frag in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(159): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(160): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(161): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(162): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(163): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(164): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(165): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(166): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in Ocean.material(167): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script OffsetMapping.material
+20:04:09: Warnings while compiling D3D11 high-level shader Examples/OffsetMappingIntegratedShadowsVPhlsl:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(41,32-80): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(42,33-83): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(129,9-47): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(130,9-47): warning X3206: implicit truncation of vector type
+
+20:04:09: Warnings while compiling D3D11 high-level shader Examples/OffsetMappingIntegratedShadowsFPhlsl:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(41,32-80): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(42,33-83): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(129,9-47): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(130,9-47): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(117,21): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(124,15): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(117,21): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\OffsetMapping.hlsl(124,15): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+20:04:09: Parsing script Ogre.material
+20:04:09: Parsing script OldMovie.material
+20:04:09: Program 'Ogre/Compositor/OldMovie_HLSL_FP' is not supported: Cannot locate resource OldMovieFP.cg in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in OldMovie.material(43): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in OldMovie.material(44): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in OldMovie.material(45): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in OldMovie.material(46): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in OldMovie.material(47): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in OldMovie.material(48): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script OldTV.material
+20:04:09: Parsing script ParticleGS.material
+20:04:09: Parsing script Penguin.material
+20:04:09: Parsing script Posterize.material
+20:04:09: Program 'Ogre/Compositor/Posterize_Cg_FP' is not supported: Cannot locate resource PosterizeFP.cg in resource group General.
+20:04:09: Parsing script pssm.material
+20:04:09: Parsing script RadialBlur.material
+20:04:09: Program 'Radial_Blur_Cg_ps' is not supported: Cannot locate resource Radial_Blur_FP.cg in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in RadialBlur.material(33): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in RadialBlur.material(34): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script RasterizationOrder.material
+20:04:09: Parsing script RZR-002.material
+20:04:09: Parsing script ShaderInstancing.material
+20:04:09: Parsing script ShaderSystem.material
+20:04:09: Parsing script SharpenEdges.material
+20:04:09: Program 'Ogre/Compositor/SharpenEdgesFP_hlsl' is not supported: Cannot locate resource SharpenEdgesFP.cg in resource group General.
+20:04:09: Error: ScriptCompiler - invalid parameters in SharpenEdges.material(19): Named constants have not been initialised, perhaps a compile error
+20:04:09: Parsing script sibenik.material
+20:04:09: Parsing script smoke.material
+20:04:09: Parsing script Swizzle.material
+20:04:09: Parsing script TerrainTessellation.material
+20:04:09: Program 'Ogre/TerrainTessellation/HwTessellationPassThruVS' is not supported: Cannot compile D3D11 high-level shader Ogre/TerrainTessellation/HwTessellationPassThruVS Errors:
+TerrainTessellation.hlsl(238,48-79): warning X3576: semantics in type overridden by variable/function or enclosing type
+TerrainTessellation.hlsl(238,48-79): error X4577: Not all elements of SV_Position were written
+TerrainTessellation.hlsl(238,48-79): error X4576: Output signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(97): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(98): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(99): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(100): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(101): Named constants have not been initialised, perhaps a compile error
+20:04:09: Program 'Ogre/TerrainTessellation/TerrainScreenspaceLODHS' is not supported: Cannot compile D3D11 high-level shader Ogre/TerrainTessellation/TerrainScreenspaceLODHS Errors:
+TerrainTessellation.hlsl(517,74): warning X3576: semantics in type overridden by variable/function or enclosing type
+TerrainTessellation.hlsl(413,97-98): warning X3576: semantics in type overridden by variable/function or enclosing type
+TerrainTessellation.hlsl(399,6-17): warning X3556: integer modulus may be much slower, try using uints if possible.
+TerrainTessellation.hlsl(334,2): warning X4000: use of potentially uninitialized variable (inFrustum)
+TerrainTessellation.hlsl(517,74): error X4576: Input signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(131): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(132): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(133): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(134): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(135): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(136): Named constants have not been initialised, perhaps a compile error
+20:04:09: Program 'Ogre/TerrainTessellation/TerrainDisplaceDS' is not supported: Cannot compile D3D11 high-level shader Ogre/TerrainTessellation/TerrainDisplaceDS Errors:
+TerrainTessellation.hlsl(598,53-63): error X4576: Input signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(148): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(149): Named constants have not been initialised, perhaps a compile error
+20:04:09: Error: ScriptCompiler - invalid parameters in TerrainTessellation.material(150): Named constants have not been initialised, perhaps a compile error
+20:04:10: Parsing script Tessellation.material
+20:04:10: Program 'Ogre/Tessellation/TessellationHullProgramHLSL' is not supported: Cannot compile D3D11 high-level shader Ogre/Tessellation/TessellationHullProgramHLSL Errors:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Tessellation.hlsl(78,54): error X4576: Input signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:10: Error: ScriptCompiler - invalid parameters in Tessellation.material(28): Named constants have not been initialised, perhaps a compile error
+20:04:10: Program 'Ogre/Tessellation/TessellationDomainProgramHLSL' is not supported: Cannot compile D3D11 high-level shader Ogre/Tessellation/TessellationDomainProgramHLSL Errors:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Tessellation.hlsl(97,53-56): error X4576: Input signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:10: Error: ScriptCompiler - invalid parameters in Tessellation.material(57): Named constants have not been initialised, perhaps a compile error
+20:04:10: Program 'Ogre/Tessellation/VertexProgramHLSL' is not supported: Cannot compile D3D11 high-level shader Ogre/Tessellation/VertexProgramHLSL Errors:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Tessellation.hlsl(35,26-58): error X4577: Not all elements of SV_Position were written
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Tessellation.hlsl(35,26-58): error X4576: Output signature parameter SV_Position (1-based Entry 0) type must be float32 and mask must be xyzw. 
+
+20:04:10: Parsing script Tiling.material
+20:04:10: Program 'Ogre/Compositor/Tiling_Cg_FP' is not supported: Cannot locate resource TilingFP.cg in resource group General.
+20:04:10: Error: ScriptCompiler - invalid parameters in Tiling.material(37): Named constants have not been initialised, perhaps a compile error
+20:04:10: Error: ScriptCompiler - invalid parameters in Tiling.material(38): Named constants have not been initialised, perhaps a compile error
+20:04:10: Parsing script VarianceShadowmap.material
+20:04:10: Parsing script VTFInstancing.material
+20:04:10: Parsing script deferreddemo.material
+20:04:10: Parsing script deferred_post.material
+20:04:10: Warnings while compiling D3D11 high-level shader DeferredShading/post/ShowDS_ps_pCg:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ShowDS_ps.cg(39,16-29): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ShowDS_ps.cg(39,16-29): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+20:04:10: Parsing script deferred_post_minilight.material
+20:04:10: Parsing script ShadowCaster.material
+20:04:10: Parsing script ssao.material
+20:04:10: Warnings while compiling D3D11 high-level shader ssao_vs_pCg:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(26,12-26): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(134,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(162,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+
+20:04:10: Warnings while compiling D3D11 high-level shader ssao_ps_pCg:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(26,12-26): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(134,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(162,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+
+20:04:10: Warnings while compiling D3D11 high-level shader ssaoBlurX_ps_pCg:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(26,12-26): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(134,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(162,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+
+20:04:10: Warnings while compiling D3D11 high-level shader ssaoBlurY_ps_pCg:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(26,12-26): warning X3206: implicit truncation of vector type
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(134,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\ssao.cg(162,14): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+
+20:04:10: Parsing script ROOM.material
+20:04:10: Parsing script CreaseShading.material
+20:04:10: Program 'SSAO/CreaseShading_fp_hlsl' is not supported: Cannot compile D3D11 high-level shader SSAO/CreaseShading_fp_hlsl Errors:
+CreaseShading.cg(8,21): error X5608: Compiled shader code uses too many arithmetic instruction slots (1202). Max. allowed by the target (ps_2_x) is 512. Consider increasing optimization level to reduce instruction count.
+(1,1): error X5609: Compiled shader code uses too many instruction slots (1240). Max. allowed by the target (ps_2_x) is 512.
+
+20:04:10: Error: ScriptCompiler - invalid parameters in CreaseShading.material(44): Named constants have not been initialised, perhaps a compile error
+20:04:10: Parsing script Crytek.material
+20:04:10: Warnings while compiling D3D11 high-level shader SSAO/Crytek_fp_hlsl:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\Crytek.cg(67,38-72): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+
+20:04:10: Parsing script GBuffer.material
+20:04:10: Parsing script HemisphereMC.material
+20:04:10: Parsing script HorizonBased.material
+20:04:10: Parsing script Modulate.material
+20:04:10: Parsing script ShowDepth.material
+20:04:10: Parsing script ShowNormals.material
+20:04:10: Parsing script ShowViewPos.material
+20:04:10: Parsing script SSAOPost.material
+20:04:10: Parsing script UnsharpMask.material
+20:04:11: Parsing script Volumetric.material
+20:04:11: Parsing script triplanarReference.material
+20:04:11: Parsing script CSMShadows.material
+20:04:11: Parsing script RomanBath.material
+20:04:11: Parsing script Sinbad.material
+20:04:11: Parsing script emitted_emitter.particle
+20:04:11: Parsing script Examples-Water.particle
+20:04:11: Parsing script Examples.particle
+20:04:11: Parsing script smoke.particle
+20:04:11: Parsing script Examples.compositor
+20:04:11: Parsing script deferred.compositor
+20:04:11: Parsing script ssao.compositor
+20:04:11: Parsing script SSAO.compositor
+20:04:11: Parsing script SSAOPost.compositor
+20:04:11: Finished parsing scripts for resource group General
+20:04:11: Creating resources for group General
+20:04:11: All done
+20:04:11: Parsing scripts for resource group OgreAutodetect
+20:04:11: Finished parsing scripts for resource group OgreAutodetect
+20:04:11: Creating resources for group OgreAutodetect
+20:04:11: All done
+20:04:11: Parsing scripts for resource group OgreInternal
+20:04:11: Parsing script ShadowVolumeExtude.program
+20:04:11: Parsing script DualQuaternionSkinning_Shadow.material
+20:04:11: Parsing script HardwareSkinningShadow.material
+20:04:11: Parsing script RTShaderSystem.material
+20:04:11: Parsing script TriplanarTexturing.material
+20:04:11: Finished parsing scripts for resource group OgreInternal
+20:04:11: Creating resources for group OgreInternal
+20:04:11: All done
+20:04:11: Parsing scripts for resource group Tests
+20:04:11: Parsing script glow.material
+20:04:11: Warnings while compiling D3D11 high-level shader glow_vs_cg:
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\vs_glow.cg(5,17-19): warning X3578: 'main': Top-level output parameter 'oUv' not completely initialized
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\vs_glow.cg(6,17-22): warning X3578: 'main': Top-level output parameter 'colour' not completely initialized
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\vs_glow.cg(5,17-19): warning X3578: Output value 'oUv' is not completely initialized
+C:\Users\andre\OneDrive\Escritorio\UCM\Tercero\Proyecto3\Puzzles\Puzzles\PuzzlesGame\bin\vs_glow.cg(6,17-22): warning X3578: Output value 'colour' is not completely initialized
+
+20:04:11: Finished parsing scripts for resource group Tests
+20:04:11: Creating resources for group Tests
+20:04:11: All done
+20:04:11: Mesh: Loading Sinbad.mesh.
+20:04:11: Skeleton: Loading Sinbad.skeleton
+20:04:11: Texture 'sinbad_body.tga': Loading 1 faces(PF_B8G8R8,512x512x1) with 9 generated mipmaps from Image. Internal format is PF_A8B8G8R8,512x512x1.
+20:04:11: Texture 'sinbad_clothes.tga': Loading 1 faces(PF_B8G8R8,512x512x1) with 9 generated mipmaps from Image. Internal format is PF_A8B8G8R8,512x512x1.
+20:04:11: Texture 'sinbad_sword.tga': Loading 1 faces(PF_B8G8R8,256x256x1) with 8 generated mipmaps from Image. Internal format is PF_A8B8G8R8,256x256x1.
+20:04:11: Warning: the mesh 'Sinbad.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+20:04:12: Warnings while compiling D3D11 high-level shader 7d9462ca25091d7e713f57c1c4122d94_VS:
+(31,14-24): warning X3578: Output value 'oTexcoord_0' is not completely initialized
+
+20:04:12: Warnings while compiling D3D11 high-level shader 5a6f1d08fba8e1ddeaa7fc7a4aea4108_FS:
+SGXLib_LayeredBlending.glsl(60,41): warning X4000: use of potentially uninitialized variable (hsl)
+
+20:04:13: DefaultWorkQueue('Root') shutting down on thread 14380.
+20:04:13: DefaultWorkQueue('Root')::WorkerFunc - thread 7072 stopped.
+20:04:13: DefaultWorkQueue('Root')::WorkerFunc - thread 4972 stopped.
+20:04:13: *-*-* OGRE Shutdown
+20:04:13: Unregistering ResourceManager for type Compositor
+20:04:13: Unloading library C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/PuzzlesGame/bin/.\Codec_STBI
+20:04:13: Uninstalling plugin: ParticleFX
+20:04:13: Plugin successfully uninstalled
+20:04:13: Unloading library C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/PuzzlesGame/bin/.\Plugin_ParticleFX
+20:04:13: Uninstalling plugin: D3D11 RenderSystem
+20:04:13: D3D11: Shutting down cleanly.
+20:04:13: Unregistering ResourceManager for type Texture
+20:04:13: Unregistering ResourceManager for type GpuProgram
+20:04:13: D3D11: Direct3D11 Rendering Subsystem destroyed.
+20:04:14: Plugin successfully uninstalled
+20:04:14: Unloading library C:/Users/andre/OneDrive/Escritorio/UCM/Tercero/Proyecto3/Puzzles/Puzzles/PuzzlesGame/bin/.\RenderSystem_Direct3D11
+20:04:14: Unregistering ResourceManager for type Skeleton
+20:04:14: Unregistering ResourceManager for type Mesh
+20:04:14: Unregistering ResourceManager for type HighLevelGpuProgram
+20:04:14: Unregistering ResourceManager for type Material

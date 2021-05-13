@@ -152,8 +152,12 @@ Puzzle.bat</Command>
     </Link>
     <PreBuildEvent>
       <Command>cd ../
-Puzzle.bat</Command>
+PuzzlesDependencies.bat</Command>
     </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd ../assets
+resources.bat</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -176,8 +180,12 @@ Puzzle.bat</Command>
     </Link>
     <PreBuildEvent>
       <Command>cd ../
-Puzzle.bat</Command>
+PuzzlesDependencies.bat</Command>
     </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd ../assets
+resources.bat</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp" />

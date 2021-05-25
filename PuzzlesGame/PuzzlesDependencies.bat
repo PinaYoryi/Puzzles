@@ -12,8 +12,6 @@ if not exist ../../PuzzlesGame/bin/OgreMain.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreMain_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreMeshLodGenerator.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreMeshLodGenerator_d.dll goto copydependencies
-if not exist ../../PuzzlesGame/bin/OgreOverlay.dll goto copydependencies
-if not exist ../../PuzzlesGame/bin/OgreOverlay_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgrePaging.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgrePaging_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreProperty.dll goto copydependencies
@@ -22,8 +20,8 @@ if not exist ../../PuzzlesGame/bin/OgreRTShaderSystem.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreRTShaderSystem_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/Plugin_ParticleFX.dll copydependencies
 if not exist ../../PuzzlesGame/bin/Plugin_ParticleFX_d.dll goto copydependencies
-if not exist ../../PuzzlesGame/bin/RenderSystem_Direct3D11.dll goto copydependencies
-if not exist ../../PuzzlesGame/bin/RenderSystem_Direct3D11_d.dll goto copydependencies
+if not exist ../../PuzzlesGame/bin/RenderSystem_GL.dll goto copydependencies
+if not exist ../../PuzzlesGame/bin/RenderSystem_GL_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/SDL2.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/zlib.dll goto copydependencies
 

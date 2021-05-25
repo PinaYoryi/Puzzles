@@ -188,13 +188,19 @@ resources.bat</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Door.cpp" />
     <ClCompile Include="..\src\GameManager.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Mechanism.cpp" />
     <ClCompile Include="..\src\PlayerController.cpp" />
+    <ClCompile Include="..\src\PressurePlate.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\Door.h" />
     <ClInclude Include="..\src\GameManager.h" />
+    <ClInclude Include="..\src\Mechanism.h" />
     <ClInclude Include="..\src\PlayerController.h" />
+    <ClInclude Include="..\src\PressurePlate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,10 @@
 #include <iostream>
 #include <PinaMotor.h>
+#include "ComponentFactoryRegistration.h"
+
+#include "PressurePlate.h"
+#include "Door.h"
+
 
 #if (defined _DEBUG)
 #include <crtdbg.h>
@@ -10,6 +15,10 @@ int main() {
 int WINAPI
 WinMain(HINSTANCE zhInstance, HINSTANCE prevInstance, LPSTR lpCmdLine, int nCmdShow) {
 #endif
+
+    ComponentFactoryRegistrations::ComponentFactoryRegistration<PressurePlate>("pressureplate");
+    ComponentFactoryRegistrations::ComponentFactoryRegistration<Door>("door");
+
     PinaMotor motor;
     motor.init("Test");
 

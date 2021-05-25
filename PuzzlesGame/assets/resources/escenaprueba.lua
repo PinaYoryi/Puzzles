@@ -2,145 +2,35 @@ local mapa = {
   ambient="0.1,0.1,0.1",
   gravity="0 -9.8 0",
   entities={
-    {
-      name="Suelo",
+    { 
+      name="ent1",
       id=1,
       components={
         transform={
           position="0,0,0",
           rotation="0,0,0",
-          scale="0.75,0.03,0.75",
-          parent="-1"
+          scale="20,20,20"
         },
         renderer={
-          mesh="cube.mesh",
+          mesh="Sinbad.mesh",
           material="",
           visible="true"
         },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="true"
+        animation={
+         animations="Dance,",
+         playing="true",
+         loop="true"
         }
       }
     },
     {
-      name="paredN",
+      name="ent2",
       id=2,
       components={
         transform={
-          position="0,1,-36",
+          position="0,0,100",
           rotation="0,0,0",
-          scale="0.75,0.08,0.03",
-          parent="-1"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="true"
-        }
-      }
-    },
-    {
-      name="paredS",
-      id=3,
-      components={
-        transform={
-          position="0,1,36",
-          rotation="0,0,0",
-          scale="0.75,0.08,0.03",
-          parent="-1"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="true"
-        }
-      }
-    },
-    {
-      name="paredW",
-      id=4,
-      components={
-        transform={
-          position="-36,1,0",
-          rotation="0,0,0",
-          scale="0.03,0.08,0.75",
-          parent="-1"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="true"
-        }
-      }
-    },
-    {
-      name="paredE",
-      id=5,
-      components={
-        transform={
-          position="36,1,0",
-          rotation="0,0,0",
-          scale="0.03,0.08,0.75",
-          parent="-1"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="true"
-        }
-      }
-    },
-    {
-      name="cam",
-      id=6,
-      components={
-        transform={
-          position="0,80,50",
-          rotation="-60,0,0",
-          scale="1,1,1",
-          parent="-1"
+          scale="1,1,1"
         },
         camera={
           near="0.1",
@@ -148,115 +38,33 @@ local mapa = {
           autoaspect="true",
           aspect="1.78",
           fov="50",
-          proyection="1",
+          proyection="0",
           viewport="0,0,1,1",
-          color="0.0,0.0,0.0"
-        }
+          color="1.0,0.5,0.3137"
+        }--,
+        --audiosource={
+        --  volume="0.3",
+        --  spacial="1"
+        --}
       }
     },
     {
-      name="light",
-      id=7,
-      components={
-        transform={
-          position="0,0,0",
-          rotation="-70,0,0",
-          scale="1,1,1",
-          parent="-1"
-        },
-        light={
-          type="1",
-          attenuation="",
-          shadows="true",
-          diffuse="1,1,1,1",
-          specular="1,1,1,1",
-          spotinner="",
-          spotouter=""
-        }
-      }
-    },
-    {
-      name="Placa",
-      id=8,
-      components={
-        transform={
-          position="15,0,0",
-          rotation="0,0,0",
-          scale="0.05,0.15,0.05",
-          parent="-1"
-        },
-        pressureplate={
-          connected="9"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="true",
-          kinematic="true"
-        }
-      }
-    },
-    {
-      name="Puerta",
-      id=9,
-      components={
-        transform={
-          position="0,0,0",
-          rotation="0,0,0",
-          scale="0.05,0.15,0.05",
-          parent="-1"
-        },
-        door={
-          connected="",
-          permanent="true"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="true"
-        }
-      }
-    },
-    {
-      name="pelota",
-      id=10,
-      components={
-        transform={
-          position="15,200,0",
-          rotation="0,0,0",
-          scale="0.01,0.01,0.01",
-          parent="-1"
-        },
-        renderer={
-          mesh="sphere.mesh",
-          material="",
-          visible="true"
-        },
-        rigidbody={
-          shape="1",
-          mass="1",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="false"
+    name="ent3",
+    id=3,
+    components={
+      transform={
+        position="50,50,30",
+        rotation="0,0,0",
+        scale="1,1,1"
+      },
+      light={
+        type="0",
+        attenuation="",
+        shadows="true",
+        diffuse="1,1,1,1",
+        specular="1,1,1,1",
+        spotinner="",
+        spotouter=""
         }
       }
     }

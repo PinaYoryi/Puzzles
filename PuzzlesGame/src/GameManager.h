@@ -51,7 +51,7 @@ protected:
 
 	bool _paused;
 	float _secondsLasted;
-	std::string _lastSceneName;
+	std::string _lastSceneName = "escenamovimiento.lua"; //Temporal mientras no hay menús. TODO: QUITAR ESTO
 
 	GameManager() : _secondsLasted(0), _paused(false) {};
 };

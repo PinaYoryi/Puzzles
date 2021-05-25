@@ -23,6 +23,7 @@ public:
 
 private:
 	Transform* _trans;
+	Rigidbody* _rigidbody;
 	BasicAI* _ai;
 	float _time;	//	Tiempo que ha tardado el jugador en resolver el puzzle
 };

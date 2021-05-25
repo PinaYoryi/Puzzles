@@ -1,6 +1,9 @@
 #include <iostream>
 #include <PinaMotor.h>
 #include "ComponentFactoryRegistration.h"
+#include "GameManager.h"
+#include "PlayerController.h"
+#include "Follower.h"
 
 #include "PressurePlate.h"
 #include "Door.h"
@@ -15,14 +18,35 @@ int main() {
 int WINAPI
 WinMain(HINSTANCE zhInstance, HINSTANCE prevInstance, LPSTR lpCmdLine, int nCmdShow) {
 #endif
-
     ComponentFactoryRegistrations::ComponentFactoryRegistration<PressurePlate>("pressureplate");
     ComponentFactoryRegistrations::ComponentFactoryRegistration<Door>("door");
+    ComponentFactoryRegistrations::ComponentFactoryRegistration<PlayerController>("playercontroller");
+    ComponentFactoryRegistrations::ComponentFactoryRegistration<Follower>("follower");
+
+    srand(time(NULL));
+
+    GameManager::Init();
 
     PinaMotor motor;
-    motor.init("Test");
+    if (!motor.init("Test")) {
+#if (defined _DEBUG)
+        std::cerr << "\nError en init\n";
+#endif
+        delete GameManager::GetInstance();
+        motor.close();
+        return -1;
+    }
 
-    motor.launch("escenaprueba.lua");
+    if (!motor.launch("escenamovimiento.lua")) {
+#if (defined _DEBUG)
+        std::cerr << "\nError en launch\n";
+#endif
+        delete GameManager::GetInstance();
+        motor.close();
+        return -1;
+    }
 
     motor.close();
+
+    delete GameManager::GetInstance();
 }

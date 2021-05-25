@@ -189,6 +189,7 @@ resources.bat</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Door.cpp" />
+    <ClCompile Include="..\src\Follower.cpp" />
     <ClCompile Include="..\src\GameManager.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\Mechanism.cpp" />
@@ -197,6 +198,7 @@ resources.bat</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Door.h" />
+    <ClInclude Include="..\src\Follower.h" />
     <ClInclude Include="..\src\GameManager.h" />
     <ClInclude Include="..\src\Mechanism.h" />
     <ClInclude Include="..\src\PlayerController.h" />

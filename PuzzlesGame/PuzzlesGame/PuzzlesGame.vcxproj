@@ -195,6 +195,7 @@ resources.bat</Command>
     <ClCompile Include="..\src\Mechanism.cpp" />
     <ClCompile Include="..\src\PlayerController.cpp" />
     <ClCompile Include="..\src\PressurePlate.cpp" />
+    <ClCompile Include="..\src\SceneTransition.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Door.h" />
@@ -203,6 +204,7 @@ resources.bat</Command>
     <ClInclude Include="..\src\Mechanism.h" />
     <ClInclude Include="..\src\PlayerController.h" />
     <ClInclude Include="..\src\PressurePlate.h" />
+    <ClInclude Include="..\src\SceneTransition.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

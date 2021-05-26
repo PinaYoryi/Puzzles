@@ -7,6 +7,7 @@
 
 #include "PressurePlate.h"
 #include "Door.h"
+#include "SceneTransition.h"
 
 
 #if (defined _DEBUG)
@@ -22,6 +23,7 @@ WinMain(HINSTANCE zhInstance, HINSTANCE prevInstance, LPSTR lpCmdLine, int nCmdS
     ComponentFactoryRegistrations::ComponentFactoryRegistration<Door>("door");
     ComponentFactoryRegistrations::ComponentFactoryRegistration<PlayerController>("playercontroller");
     ComponentFactoryRegistrations::ComponentFactoryRegistration<Follower>("follower");
+    ComponentFactoryRegistrations::ComponentFactoryRegistration<SceneTransition>("scenetransition");
 
     srand(time(NULL));
 

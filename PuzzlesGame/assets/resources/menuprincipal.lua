@@ -41,6 +41,7 @@ local mapa = {
                     name="botonJugar",
                     type="CHANGE_SCENE",
                     showCursor="true",
+                    continueBullet="true",
                     nextScene="puzzle1.lua"
                 }
      	    }
@@ -62,6 +63,7 @@ local mapa = {
                     name="botonSalir",
                     type="EXIT",
                     showCursor="true",
+                    continueBullet="false",
                     nextScene=""
                 }
      	    }
@@ -75,7 +77,7 @@ local mapa = {
                     rotation="0,0,0",
                     scale="1,1,1",
                     parent="-1"
-                },        
+                },     
                 skybox={
                     enable="true",
                     planenormal="Z",

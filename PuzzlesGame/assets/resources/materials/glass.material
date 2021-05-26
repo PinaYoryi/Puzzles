@@ -1,0 +1,13 @@
+material glass
+{
+    technique
+    {
+		scene_blend alpha_blend
+		depth_write off
+        pass
+        {
+            ambient 0.8 0.8 0.8 0.4
+            diffuse 0.8 0.8 0.8 0.4                 
+        }
+    }
+}

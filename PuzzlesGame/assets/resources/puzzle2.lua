@@ -285,7 +285,7 @@ local mapa = {
           kinematic ="false"
         },
         audiolistener={
-          position="-15, 5, 0"
+          position="20, -80, 0"
         },
         basicai={
           step="500",
@@ -294,32 +294,6 @@ local mapa = {
           stepRot="0.002"
         },
         playercontroller={
-        }
-      }
-    },
-    {
-      name="box",
-      id=10,
-      components={
-        transform={
-          position="-15,5,0",
-          rotation="0,0,0",
-          scale="0.05,0.05,0.05",
-          parent="-1"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="red",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="10",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.8,0.8",
-          trigger="false",
-          kinematic="false"
         }
       }
     },
@@ -351,6 +325,42 @@ local mapa = {
           scene="puzzle2.lua"
         }
       }
+    },
+    {
+      name="Follower",
+      id=15,
+      components={
+        transform={
+          position="0,5,0",
+          rotation="0,0,0",
+          scale="1,1,1",
+          parent="-1"
+        },
+        renderer={
+          mesh="Sinbad.mesh",
+          material="",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="10",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="false"
+        },
+        basicai={
+          step="100",
+          threshold="0.5",
+          thresholdRot="0.1",
+          stepRot="0.002"
+        },
+        follower={
+          strength="250",
+          objective="10"
+        }
+      }
     }
   }
 }
@@ -358,4 +368,3 @@ local mapa = {
 function GetMapa ()
   return mapa
 end
-

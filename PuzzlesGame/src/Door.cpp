@@ -29,14 +29,14 @@ bool Door::init(const std::map<std::string, std::string>& mapa)
 
 void Door::activate()
 {
-	_rb->setKinematic(false);
+	_rb->setTrigger(true);
 	_rn->setVisible(false);
 }
 
 void Door::deactivate()
 {
 	if (!_openPermanently) {
-		_rb->setKinematic(true);
+		_rb->setTrigger(false);
 		_rn->setVisible(true);
 	}
 }

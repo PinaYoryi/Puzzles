@@ -29,13 +29,39 @@ local mapa = {
       }
     },
     {
-      name="paredN",
+      name="paredN1",
       id=2,
       components={
         transform={
-          position="0,1,-36",
+          position="-20,1,-36",
           rotation="0,0,0",
-          scale="0.75,0.15,0.03",
+          scale="0.32,0.15,0.03",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="metalPlatform",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="paredN2",
+      id=2,
+      components={
+        transform={
+          position="20,1,-36",
+          rotation="0,0,0",
+          scale="0.32,0.15,0.03",
           parent="-1"
         },
         renderer={
@@ -209,14 +235,14 @@ local mapa = {
       id=9,
       components={
         transform={
-          position="0,0,0",
+          position="0,0,-36",
           rotation="0,0,0",
-          scale="0.05,0.15,0.05",
+          scale="0.08,0.15,0.04",
           parent="-1"
         },
         door={
           connected="",
-          permanent="true"
+          permanent="false"
         },
         renderer={
           mesh="cube.mesh",
@@ -235,11 +261,11 @@ local mapa = {
       }
     },
     {
-      name="pelota",
+      name="player",
       id=10,
       components={
         transform={
-          position="-15,10,0",
+          position="-15,5,0",
           rotation="0,0,0",
           scale="0.01,0.01,0.01",
           parent="-1"
@@ -250,11 +276,46 @@ local mapa = {
           visible="true"
         },
         rigidbody={
-          shape="1",
+          shape="0",
           mass="1",
           inertia="0,0,0",
           restitution="0.2",
           damping="0.2,0.2",
+          trigger="false",
+          kinematic="false"
+        },
+        playercontroller={
+
+        },
+        basicai={
+          step="100",
+          threshold="0.5",
+          thresholdRot="0.1",
+          stepRot="0.002"
+        }
+      }
+    },
+    {
+      name="box",
+      id=10,
+      components={
+        transform={
+          position="-15,5,0",
+          rotation="0,0,0",
+          scale="0.05,0.05,0.05",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="red",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="10",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.8,0.8",
           trigger="false",
           kinematic="false"
         }

@@ -14,7 +14,7 @@ local mapa = {
         },
         renderer={
           mesh="cube.mesh",
-          material="",
+          material="metalPlatform",
           visible="true"
         },
         rigidbody={
@@ -35,12 +35,12 @@ local mapa = {
         transform={
           position="0,1,-36",
           rotation="0,0,0",
-          scale="0.75,0.08,0.03",
+          scale="0.75,0.15,0.03",
           parent="-1"
         },
         renderer={
           mesh="cube.mesh",
-          material="",
+          material="metalPlatform",
           visible="true"
         },
         rigidbody={
@@ -61,12 +61,12 @@ local mapa = {
         transform={
           position="0,1,36",
           rotation="0,0,0",
-          scale="0.75,0.08,0.03",
+          scale="0.75,0.15,0.03",
           parent="-1"
         },
         renderer={
           mesh="cube.mesh",
-          material="",
+          material="metalPlatform",
           visible="true"
         },
         rigidbody={
@@ -87,12 +87,12 @@ local mapa = {
         transform={
           position="-36,1,0",
           rotation="0,0,0",
-          scale="0.03,0.08,0.75",
+          scale="0.03,0.15,0.75",
           parent="-1"
         },
         renderer={
           mesh="cube.mesh",
-          material="",
+          material="metalPlatform",
           visible="true"
         },
         rigidbody={
@@ -113,12 +113,12 @@ local mapa = {
         transform={
           position="36,1,0",
           rotation="0,0,0",
-          scale="0.03,0.08,0.75",
+          scale="0.03,0.15,0.75",
           parent="-1"
         },
         renderer={
           mesh="cube.mesh",
-          material="",
+          material="metalPlatform",
           visible="true"
         },
         rigidbody={
@@ -190,7 +190,7 @@ local mapa = {
         },
         renderer={
           mesh="cube.mesh",
-          material="",
+          material="blue",
           visible="true"
         },
         rigidbody={
@@ -239,14 +239,14 @@ local mapa = {
       id=10,
       components={
         transform={
-          position="15,200,0",
+          position="-15,10,0",
           rotation="0,0,0",
           scale="0.01,0.01,0.01",
           parent="-1"
         },
         renderer={
           mesh="sphere.mesh",
-          material="",
+          material="red",
           visible="true"
         },
         rigidbody={

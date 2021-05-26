@@ -294,6 +294,11 @@ local mapa = {
           stepRot="0.002"
         },
         playercontroller={
+        },
+        animation={
+          animations="RunBase",
+          playing="true",
+          loop="true"
         }
       }
     },

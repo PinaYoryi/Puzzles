@@ -294,6 +294,11 @@ local mapa = {
           stepRot="0.002"
         },
         playercontroller={
+        },
+        animation={
+          animations="RunBase",
+          playing="true",
+          loop="true"
         }
       }
     },
@@ -359,6 +364,11 @@ local mapa = {
         follower={
           strength="250",
           objective="10"
+        },
+        animation={
+          animations="RunBase",
+          playing="true",
+          loop="true"
         }
       }
     },

@@ -206,7 +206,7 @@ local mapa = {
       id=8,
       components={
         transform={
-          position="15,0,0",
+          position="10,0,-7",
           rotation="0,0,0",
           scale="0.05,0.15,0.05",
           parent="-1"
@@ -254,7 +254,7 @@ local mapa = {
           mass="0",
           inertia="0,0,0",
           restitution="0.2",
-          damping="0.2,0.2",
+          damping="0.7,0.7",
           trigger="false",
           kinematic="true"
         }
@@ -265,7 +265,7 @@ local mapa = {
       id=10,
       components={
         transform={
-          position="-15,5,0",
+          position="-20,5,-15",
           rotation="0,0,0",
           scale="1,1,1",
           parent="-1"
@@ -280,7 +280,7 @@ local mapa = {
           mass="10",
           inertia="0,0,0",
           restitution="0.2",
-          damping="0.2,0.2",
+          damping="0.7,0.7",
           trigger="false",
           kinematic ="false"
         },
@@ -322,7 +322,7 @@ local mapa = {
           kinematic="true"
         },
         scenetransition={
-          scene="puzzle2.lua"
+          scene="menuprincipal.lua"
         }
       }
     },
@@ -331,7 +331,7 @@ local mapa = {
       id=15,
       components={
         transform={
-          position="0,5,0",
+          position="-5,5,-10",
           rotation="0,0,0",
           scale="1,1,1",
           parent="-1"
@@ -359,6 +359,136 @@ local mapa = {
         follower={
           strength="250",
           objective="10"
+        }
+      }
+    },
+    {
+      name="jaulaN",
+      id=20,
+      components={
+        transform={
+          position="0,1,-15",
+          rotation="0,0,0",
+          scale="0.32,0.15,0.015",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="jaulaS",
+      id=21,
+      components={
+        transform={
+          position="0,1,15",
+          rotation="0,0,0",
+          scale="0.32,0.15,0.015",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="jaulaC",
+      id=25,
+      components={
+        transform={
+          position="0,1,-6",
+          rotation="0,0,0",
+          scale="0.015,0.15,0.16",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="jaulaW",
+      id=22,
+      components={
+        transform={
+          position="-15,1,0",
+          rotation="0,0,0",
+          scale="0.015,0.15,0.32",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="jaulaE",
+      id=23,
+      components={
+        transform={
+          position="15,1,0",
+          rotation="0,0,0",
+          scale="0.015,0.15,0.32",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
         }
       }
     }

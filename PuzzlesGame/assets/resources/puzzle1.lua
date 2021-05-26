@@ -280,7 +280,7 @@ local mapa = {
           mass="10",
           inertia="0,0,0",
           restitution="0.2",
-          damping="0.2,0.2",
+          damping="0.7,0.7",
           trigger="false",
           kinematic ="false"
         },
@@ -317,7 +317,7 @@ local mapa = {
           mass="10",
           inertia="0,0,0",
           restitution="0.2",
-          damping="0.8,0.8",
+          damping="0.9,0.9",
           trigger="false",
           kinematic="false"
         }

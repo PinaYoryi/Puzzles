@@ -19,9 +19,3 @@ void Follower::update() {
 	_myEntity->getComponent<BasicAI>()->moveTo(_objective->getComponent<Transform>()->position());
 	_myEntity->getComponent<BasicAI>()->rotateTo(_objective->getComponent<Transform>()->position());
 }
-
-void Follower::onCollisionStart(Entity* other) {
-	if (other->getName() == "Player") {
-		GameManager::GetInstance()->reloadLevel();
-	}
-}

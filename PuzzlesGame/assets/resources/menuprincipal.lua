@@ -41,7 +41,7 @@ local mapa = {
                     name="botonJugar",
                     type="CHANGE_SCENE",
                     showCursor="true",
-                    nextScene="escenamovimiento.lua"
+                    nextScene="puzzle1.lua"
                 }
      	    }
         },

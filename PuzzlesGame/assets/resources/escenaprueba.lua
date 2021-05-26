@@ -2,14 +2,15 @@ local mapa = {
   ambient="0.1,0.1,0.1",
   gravity="0 -9.8 0",
   entities={
-    { 
-      name="ent1",
+    {
+      name="Player",
       id=1,
       components={
         transform={
           position="0,0,0",
           rotation="0,0,0",
-          scale="20,20,20"
+          scale="20,20,20",
+          parent="-1"
         },
         renderer={
           mesh="Sinbad.mesh",
@@ -17,7 +18,7 @@ local mapa = {
           visible="true"
         },
         animation={
-         animations="Dance,",
+         animations="Dance",
          playing="true",
          loop="true"
         }
@@ -30,7 +31,8 @@ local mapa = {
         transform={
           position="0,0,100",
           rotation="0,0,0",
-          scale="1,1,1"
+          scale="1,1,1",
+          parent="-1"
         },
         camera={
           near="0.1",
@@ -55,7 +57,8 @@ local mapa = {
       transform={
         position="50,50,30",
         rotation="0,0,0",
-        scale="1,1,1"
+        scale="1,1,1",
+        parent="-1"
       },
       light={
         type="0",

@@ -9,3 +9,5 @@ cd PuzzlesGame
 msbuild PuzzlesGame.sln -p:Configuration=Debug
 msbuild PuzzlesGame.sln -p:Configuration=Release
 echo BUILDING DONE
+
+cd ..

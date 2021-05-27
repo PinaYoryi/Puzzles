@@ -24,7 +24,7 @@ void GameManager::onFinish(float time) {
 }
 
 void GameManager::reloadLevel() {
-	toScene(_lastSceneName, sceneState::Neutral);
+		toScene(SceneManager::GetInstance()->getCurrentScene(), sceneState::Neutral);
 }
 
 void GameManager::toScene(std::string scene, sceneState state) {

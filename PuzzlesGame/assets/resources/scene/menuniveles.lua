@@ -36,7 +36,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.3,0.10",
+                    position="0.4,0.16",
                     size="240,70",
                     name="botonNivel1",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
@@ -60,7 +60,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.3,0.30",
+                    position="0.4,0.32",
                     size="240,70",
                     name="botonNivel2",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
@@ -84,7 +84,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.3,0.45",
+                    position="0.4,0.48",
                     size="240,70",
                     name="botonNivel3",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
@@ -108,7 +108,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.3,0.60",
+                    position="0.4,0.64",
                     size="240,70",
                     name="botonNivel4",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
@@ -132,7 +132,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.3,0.80",
+                    position="0.4,0.80",
                     size="240,70",
                     name="botonMenuppal",
                     properties="NormalImage,TaharezLook/ButtonMenu,HoverImage,TaharezLook/ButtonMenuHover,PushedImage,TaharezLook/ButtonMenuPushed",
@@ -140,7 +140,7 @@ local mapa = {
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
                     continueBullet="false",
-                    nextScene="menuprincipal"
+                    nextScene="menuprincipal.lua"
                 }
      	    }
         },

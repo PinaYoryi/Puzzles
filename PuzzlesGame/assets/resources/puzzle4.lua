@@ -206,7 +206,7 @@ local mapa = {
       id=8,
       components={
         transform={
-          position="10,0,-7",
+          position="8,0,-7",
           rotation="0,0,0",
           scale="0.05,0.15,0.05",
           parent="-1"
@@ -235,7 +235,7 @@ local mapa = {
       id=31,
       components={
         transform={
-          position="-10,0,-7",
+          position="-8,0,-7",
           rotation="0,0,0",
           scale="0.05,0.15,0.05",
           parent="-1"
@@ -324,7 +324,7 @@ local mapa = {
       id=10,
       components={
         transform={
-          position="-20,5,-15",
+          position="22,5,-15",
           rotation="0,0,0",
           scale="1,1,1",
           parent="-1"
@@ -386,42 +386,57 @@ local mapa = {
           kinematic="true"
         },
         scenetransition={
-          scene="puzzle4.lua"
+          scene="menufinal.lua"
         }
       }
     },
     {
-      name="sphere",
-      id=32,
-      components={
-        transform={
-          position="-5,5,0",
-          rotation="0,0,0",
-          scale="0.05,0.05,0.05",
-          parent="-1"
-        },
-        renderer={
-          mesh="sphere.mesh",
-          material="red",
-          visible="true"
-        },
-        rigidbody={
-          shape="1",
-          mass="10",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.9,0.9",
-          trigger="false",
-          kinematic="false"
-        }
-      }
-    },
-    {
-      name="Follower",
+      name="Follower1",
       id=15,
       components={
         transform={
-          position="-5,5,-10",
+          position="-8,5,30",
+          rotation="0,0,0",
+          scale="1,1,1",
+          parent="-1"
+        },
+        renderer={
+          mesh="Sinbad.mesh",
+          material="",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="10",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="false"
+        },
+        basicai={
+          step="100",
+          threshold="0.5",
+          thresholdRot="0.1",
+          stepRot="0.002"
+        },
+        follower={
+          strength="250",
+          objective="10"
+        },
+        animation={
+          animations="RunBase",
+          playing="true",
+          loop="true"
+        }
+      }
+    },
+    {
+      name="Follower2",
+      id=40,
+      components={
+        transform={
+          position="24,5,30",
           rotation="0,0,0",
           scale="1,1,1",
           parent="-1"
@@ -484,39 +499,13 @@ local mapa = {
       }
     },
     {
-      name="jaulaS",
-      id=21,
-      components={
-        transform={
-          position="0,1,15",
-          rotation="0,0,0",
-          scale="0.32,0.15,0.015",
-          parent="-1"
-        },
-        renderer={
-          mesh="cube.mesh",
-          material="glass",
-          visible="true"
-        },
-        rigidbody={
-          shape="0",
-          mass="0",
-          inertia="0,0,0",
-          restitution="0.2",
-          damping="0.2,0.2",
-          trigger="false",
-          kinematic="true"
-        }
-      }
-    },
-    {
       name="jaulaC",
       id=25,
       components={
         transform={
-          position="0,1,-6",
+          position="0,1,10",
           rotation="0,0,0",
-          scale="0.015,0.15,0.16",
+          scale="0.015,0.15,0.5",
           parent="-1"
         },
         renderer={
@@ -540,9 +529,9 @@ local mapa = {
       id=22,
       components={
         transform={
-          position="-15,1,0",
+          position="-15,1,2",
           rotation="0,0,0",
-          scale="0.015,0.15,0.32",
+          scale="0.015,0.15,0.36",
           parent="-1"
         },
         renderer={
@@ -566,9 +555,9 @@ local mapa = {
       id=23,
       components={
         transform={
-          position="15,1,0",
+          position="15,1,2",
           rotation="0,0,0",
-          scale="0.015,0.15,0.32",
+          scale="0.015,0.15,0.36",
           parent="-1"
         },
         renderer={
@@ -583,6 +572,143 @@ local mapa = {
           restitution="0.2",
           damping="0.2,0.2",
           trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="jaulaS1",
+      id=41,
+      components={
+        transform={
+          position="26,1,20",
+          rotation="0,0,0",
+          scale="0.22,0.15,0.015",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="jaulaS2",
+      id=42,
+      components={
+        transform={
+          position="-19.5,1,20",
+          rotation="0,0,0",
+          scale="0.105,0.15,0.015",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="jaulaS3",
+      id=45,
+      components={
+        transform={
+          position="-24,1,27.5",
+          rotation="0,0,0",
+          scale="0.015,0.15,0.15",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="glass",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="Puerta3",
+      id=43,
+      components={
+        transform={
+          position="15,0,27",
+          rotation="0,0,0",
+          scale="0.04,0.15,0.15",
+          parent="-1"
+        },
+        door={
+          connected="",
+          permanent="true"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.7,0.7",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="Placa3",
+      id=44,
+      components={
+        transform={
+          position="-18,0,25",
+          rotation="0,0,0",
+          scale="0.05,0.15,0.05",
+          parent="-1"
+        },
+        pressureplate={
+          connected="43"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="blue",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="true",
           kinematic="true"
         }
       }

@@ -193,6 +193,7 @@ resources.bat</Command>
     <ClCompile Include="..\src\GameManager.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\Mechanism.cpp" />
+    <ClCompile Include="..\src\MusicPlayer.cpp" />
     <ClCompile Include="..\src\PlayerController.cpp" />
     <ClCompile Include="..\src\PressurePlate.cpp" />
     <ClCompile Include="..\src\SceneTransition.cpp" />
@@ -202,6 +203,7 @@ resources.bat</Command>
     <ClInclude Include="..\src\Follower.h" />
     <ClInclude Include="..\src\GameManager.h" />
     <ClInclude Include="..\src\Mechanism.h" />
+    <ClInclude Include="..\src\MusicPlayer.h" />
     <ClInclude Include="..\src\PlayerController.h" />
     <ClInclude Include="..\src\PressurePlate.h" />
     <ClInclude Include="..\src\SceneTransition.h" />

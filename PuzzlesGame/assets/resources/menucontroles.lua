@@ -25,7 +25,7 @@ local mapa = {
             }
         },
         {
-            name="BotonJ",
+            name="BotonO",
             id=2,
             components={
                 transform={
@@ -36,69 +36,21 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.3,0.40",
-                    size="240,70",
-                    name="botonJugar",
-                    properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
+                    position="0.3,0.65",
+                    size="240,100",
+                    name="botonAtras",
+                    properties="NormalImage,TaharezLook/ButtonMenu,HoverImage,TaharezLook/ButtonMenuHover,PushedImage,TaharezLook/ButtonMenuPushed",
                     type="CHANGE_SCENE",
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
                     continueBullet="true",
-                    nextScene="puzzle1.lua"
-                }
-     	    }
-        },
-        {
-            name="BotonO",
-            id=3,
-            components={
-                transform={
-                    position="0,0,0",
-                    rotation="0,0,0",
-                    scale="1,1,1",
-                    parent="-1"
-                },
-                button={
-                    text="",
-                    position="0.3,0.57",
-                    size="240,70",
-                    name="botonOpciones",
-                    properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
-                    type="CHANGE_SCENE",
-                    showCursor="true",
-                    cursorImage="TaharezLook/MouseGeorgi",
-                    continueBullet="true",
-                    nextScene="menucontroles.lua"
-                }
-     	    }
-        },
-        {
-            name="BotonS",
-            id=4,
-            components={
-                transform={
-                    position="0,0,0",
-                    rotation="0,0,0",
-                    scale="1,1,1",
-                    parent="-1"
-                },
-                button={
-                    text="",
-                    position="0.3,0.75",
-                    size="240,70",
-                    name="botonSalir",
-                    properties="NormalImage,TaharezLook/ButtonSalir,HoverImage,TaharezLook/ButtonSalirHover,PushedImage,TaharezLook/ButtonSalirPushed",
-                    type="EXIT",
-                    showCursor="true",
-                    cursorImage="TaharezLook/MouseGeorgi",
-                    continueBullet="false",
-                    nextScene=""
+                    nextScene="menuprincipal.lua"
                 }
      	    }
         },
         {
             name="skyBox",
-            id=4,
+            id=3,
             components={
                 transform={
                     position="0,0,0",
@@ -138,7 +90,7 @@ local mapa = {
                     properties="BackgroundEnabled,false,FrameEnabled,false,Image,TaharezLook/Ogrevedad"
                 }
             }
-        }
+        }       
     }
 }
 

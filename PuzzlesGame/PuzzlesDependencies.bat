@@ -18,7 +18,7 @@ if not exist ../../PuzzlesGame/bin/OgreProperty.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreProperty_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreRTShaderSystem.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/OgreRTShaderSystem_d.dll goto copydependencies
-if not exist ../../PuzzlesGame/bin/Plugin_ParticleFX.dll copydependencies
+if not exist ../../PuzzlesGame/bin/Plugin_ParticleFX.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/Plugin_ParticleFX_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/RenderSystem_GL.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/RenderSystem_GL_d.dll goto copydependencies

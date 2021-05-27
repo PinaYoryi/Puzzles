@@ -299,6 +299,8 @@ local mapa = {
           stepRot="0.002"
         },
         playercontroller={
+          idle="Dance",
+          move="RunBase"
         },
         animation={
           animations="RunBase",

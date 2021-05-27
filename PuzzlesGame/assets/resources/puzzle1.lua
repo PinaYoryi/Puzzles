@@ -206,16 +206,16 @@ local mapa = {
       id=8,
       components={
         transform={
-          position="15,0,0",
+          position="15,3,0",
           rotation="0,0,0",
-          scale="0.05,0.15,0.05",
+          scale="5,5,5",
           parent="-1"
         },
         pressureplate={
           connected="9"
         },
         renderer={
-          mesh="cube.mesh",
+          mesh="Cylinder.mesh",
           material="blue",
           visible="true"
         },
@@ -265,7 +265,7 @@ local mapa = {
       id=10,
       components={
         transform={
-          position="-15,5,0",
+          position="-15,5,15",
           rotation="0,0,0",
           scale="1,1,1",
           parent="-1"
@@ -307,13 +307,13 @@ local mapa = {
       id=10,
       components={
         transform={
-          position="-15,5,0",
+          position="-15,2,0",
           rotation="0,0,0",
-          scale="0.05,0.05,0.05",
+          scale="3,3,3",
           parent="-1"
         },
         renderer={
-          mesh="cube.mesh",
+          mesh="Mesh.mesh",
           material="red",
           visible="true"
         },

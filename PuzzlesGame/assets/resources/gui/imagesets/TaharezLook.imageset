@@ -242,19 +242,38 @@
     <Image height="11" name="TreeListClosed" width="7" xPos="175" yPos="111" />
     <Image height="7" name="TreeListOpened" width="11" xPos="164" yPos="111" />
     <Image height="14" name="UpArrow" width="11" xPos="27" yPos="146" />
-    <Image height="41" name="ButtonJugar" width="115" xPos="256" yPos="2" />
-    <Image height="41" name="ButtonMenu" width="115" xPos="256" yPos="44" />
-    <Image height="41" name="ButtonSalir" width="115" xPos="256" yPos="88" />
-    <Image height="41" name="ButtonContinuar" width="115" xPos="256" yPos="130" />
-    <Image height="41" name="ButtonJugarHover" width="115" xPos="373" yPos="2" />
-    <Image height="41" name="ButtonMenuHover" width="115" xPos="373" yPos="44" />
-    <Image height="41" name="ButtonSalirHover" width="115" xPos="373" yPos="88" />
-    <Image height="41" name="ButtonContinuarHover" width="115" xPos="373" yPos="130" />
-    <Image height="41" name="ButtonJugarPushed" width="115" xPos="373" yPos="174" />
-    <Image height="41" name="ButtonMenuPushed" width="115" xPos="373" yPos="216" />
-    <Image height="41" name="ButtonSalirPushed" width="115" xPos="373" yPos="260" />
-    <Image height="41" name="ButtonContinuarPushed" width="115" xPos="373" yPos="302" />
-    <Image height="46" name="MouseGeorgi" width="35" xPos="119" yPos="156" />
-    <Image height="50" name="Ogrevedad" width="250" xPos="0" yPos="228" />
-    <Image height="60" name="Perdiste" width="208" xPos="0" yPos="280" />
+    <Image height="44" name="ButtonJugar" width="100" xPos="250" yPos="3" />
+    <Image height="44" name="ButtonMenu" width="100" xPos="250" yPos="49" />
+    <Image height="44" name="ButtonContinuar" width="100" xPos="250" yPos="95" />
+    <Image height="44" name="ButtonSalir" width="100" xPos="250" yPos="141" />
+    <Image height="44" name="ButtonControles" width="100" xPos="250" yPos="187" />
+    <Image height="44" name="ButtonNiveles" width="100" xPos="250" yPos="325" />
+    <Image height="44" name="ButtonJugarHover" width="100" xPos="349" yPos="3" />
+    <Image height="44" name="ButtonMenuHover" width="100" xPos="349" yPos="49" />
+    <Image height="44" name="ButtonContinuarHover" width="100" xPos="349" yPos="95" />
+    <Image height="44" name="ButtonSalirHover" width="100" xPos="349" yPos="141" />
+    <Image height="44" name="ButtonControlesHover" width="100" xPos="349" yPos="187" />
+    <Image height="44" name="ButtonNivelesHover" width="100" xPos="250" yPos="371" />
+    <Image height="44" name="ButtonJugarPushed" width="100" xPos="349" yPos="233" />
+    <Image height="44" name="ButtonMenuPushed" width="100" xPos="349" yPos="279" />
+    <Image height="44" name="ButtonContinuarPushed" width="100" xPos="349" yPos="325" />
+    <Image height="44" name="ButtonNivelesPushed" width="100" xPos="349" yPos="371" />
+    <Image height="44" name="ButtonSalirPushed" width="100" xPos="250" yPos="233" />
+    <Image height="44" name="ButtonControlesPushed" width="100" xPos="250" yPos="279" />
+    <Image height="44" name="ButtonNivel1" width="100" xPos="52" yPos="325" />
+    <Image height="44" name="ButtonNivel2" width="100" xPos="151" yPos="325" />
+    <Image height="44" name="ButtonNivel3" width="100" xPos="52" yPos="371" />
+    <Image height="44" name="ButtonNivel4" width="100" xPos="151" yPos="371" />
+    <Image height="44" name="ButtonNivel1Hover" width="100" xPos="251" yPos="417" />
+    <Image height="44" name="ButtonNivel2Hover" width="100" xPos="350" yPos="417" />
+    <Image height="44" name="ButtonNivel3Hover" width="100" xPos="251" yPos="463" />
+    <Image height="44" name="ButtonNivel4Hover" width="100" xPos="350" yPos="463" />
+    <Image height="44" name="ButtonNivel1Pushed" width="100" xPos="52" yPos="233" />
+    <Image height="44" name="ButtonNivel2Pushed" width="100" xPos="151" yPos="233" />
+    <Image height="44" name="ButtonNivel3Pushed" width="100" xPos="52" yPos="279" />
+    <Image height="44" name="ButtonNivel4Pushed" width="100" xPos="151" yPos="279" />
+    <Image height="46" name="MouseGeorgi" width="35" xPos="115" yPos="156" />
+    <Image height="32" name="Ogrecabezas" width="250" xPos="0" yPos="425" />
+    <Image height="32" name="Ganaste" width="250" xPos="0" yPos="465" />
+    <Image height="300" name="Controles" width="550" xPos="0" yPos="505" />
 </Imageset>

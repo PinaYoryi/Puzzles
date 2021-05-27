@@ -35,7 +35,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.65",
+                    position="0.43,0.65",
                     size="240,100",
                     name="botonAtras",
                     properties="NormalImage,TaharezLook/ButtonMenu,HoverImage,TaharezLook/ButtonMenuHover,PushedImage,TaharezLook/ButtonMenuPushed",
@@ -87,6 +87,25 @@ local mapa = {
                 sound="TremLoadingloopl.wav",
                 volume="0.125",
                 velocity="0,0,0"
+                }
+            }
+        },
+        {
+            name="Imagen",
+            id=8,
+            components={
+                transform={
+                    position="0,0,0",
+                    rotation="0,0,0",
+                    scale="1,1,1",
+                    parent="-1"
+                },
+                image={
+                    source="TaharezLook/Ganaste",
+                    position="0.35,0.3",
+                    size="850,170",
+                    name="Titulo",
+                    properties="BackgroundEnabled,false,FrameEnabled,false,Image,TaharezLook/Ganaste"
                 }
             }
         }

@@ -36,7 +36,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.35",
+                    position="0.43,0.35",
                     size="240,100",
                     name="botonJugar",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
@@ -60,10 +60,10 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.50",
+                    position="0.43,0.50",
                     size="240,100",
                     name="botonOpciones",
-                    properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
+                    properties="NormalImage,TaharezLook/ButtonControles,HoverImage,TaharezLook/ButtonControlesHover,PushedImage,TaharezLook/ButtonControlesPushed",
                     type="CHANGE_SCENE",
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
@@ -84,10 +84,10 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.65",
+                    position="0.43,0.65",
                     size="240,100",
                     name="botonNiveles",
-                    properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
+                    properties="NormalImage,TaharezLook/ButtonNiveles,HoverImage,TaharezLook/ButtonNivelesHover,PushedImage,TaharezLook/ButtonNivelesPushed",
                     type="CHANGE_SCENE",
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
@@ -108,7 +108,7 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.80",
+                    position="0.43,0.80",
                     size="240,100",
                     name="botonSalir",
                     properties="NormalImage,TaharezLook/ButtonSalir,HoverImage,TaharezLook/ButtonSalirHover,PushedImage,TaharezLook/ButtonSalirPushed",
@@ -155,11 +155,11 @@ local mapa = {
                     parent="-1"
                 },
                 image={
-                    source="TaharezLook/Ogrevedad",
-                    position="0.35,0.1",
-                    size="450,130",
+                    source="TaharezLook/Ogrecabezas",
+                    position="0.32,0.1",
+                    size="650,130",
                     name="Titulo",
-                    properties="BackgroundEnabled,false,FrameEnabled,false,Image,TaharezLook/Ogrevedad"
+                    properties="BackgroundEnabled,false,FrameEnabled,false,Image,TaharezLook/Ogrecabezas"
                 }
             }
         },

@@ -70,6 +70,25 @@ local mapa = {
                     ysegments="10"
                 }
             }
+        },
+        {
+            name="musicBox",
+            id=7,
+            components={
+                transform={
+                position="0,0,0",
+                rotation="0,0,0",
+                scale="1,1,1",
+                parent="-1"
+                },
+                musicplayer={
+                },
+                audiosource={
+                sound="TremLoadingloopl.wav",
+                volume="0.125",
+                velocity="0,0,0"
+                }
+            }
         }
     }
 }

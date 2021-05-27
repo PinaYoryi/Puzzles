@@ -257,6 +257,11 @@ local mapa = {
           damping="0.2,0.2",
           trigger="false",
           kinematic="true"
+        },
+        audiosource={
+          sound="MetalSmack.wav",
+          volume="0.25",
+          velocity="0,0,0"
         }
       }
     },
@@ -356,6 +361,25 @@ local mapa = {
           scene="puzzle2.lua"
         }
       }
+    },
+    {
+        name="musicBox",
+        id=100,
+        components={
+            transform={
+            position="0,0,0",
+            rotation="0,0,0",
+            scale="1,1,1",
+            parent="-1"
+            },
+            musicplayer={
+            },
+            audiosource={
+            sound="CyberpunkMoonlightSonata.mp3",
+            volume="0.125",
+            velocity="0,0,0"
+            }
+        }
     }
   }
 }

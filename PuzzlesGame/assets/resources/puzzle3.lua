@@ -202,7 +202,7 @@ local mapa = {
       }
     },
     {
-      name="Placa",
+      name="Placa1",
       id=8,
       components={
         transform={
@@ -231,11 +231,70 @@ local mapa = {
       }
     },
     {
-      name="Puerta",
+      name="Placa2",
+      id=31,
+      components={
+        transform={
+          position="-10,0,-7",
+          rotation="0,0,0",
+          scale="0.05,0.15,0.05",
+          parent="-1"
+        },
+        pressureplate={
+          connected="30"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="blue",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="true",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="Puerta1",
       id=9,
       components={
         transform={
           position="0,0,-36",
+          rotation="0,0,0",
+          scale="0.12,0.15,0.04",
+          parent="-1"
+        },
+        door={
+          connected="",
+          permanent="false"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.7,0.7",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="Puerta2",
+      id=30,
+      components={
+        transform={
+          position="0,0,-35",
           rotation="0,0,0",
           scale="0.12,0.15,0.04",
           parent="-1"
@@ -327,7 +386,33 @@ local mapa = {
           kinematic="true"
         },
         scenetransition={
-          scene="puzzle3.lua"
+          scene="menufinal.lua"
+        }
+      }
+    },
+    {
+      name="sphere",
+      id=32,
+      components={
+        transform={
+          position="0,5,0",
+          rotation="0,0,0",
+          scale="0.05,0.05,0.05",
+          parent="-1"
+        },
+        renderer={
+          mesh="sphere.mesh",
+          material="red",
+          visible="true"
+        },
+        rigidbody={
+          shape="1",
+          mass="10",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.9,0.9",
+          trigger="false",
+          kinematic="false"
         }
       }
     },

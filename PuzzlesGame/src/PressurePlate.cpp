@@ -1,7 +1,7 @@
 #include "PressurePlate.h"
 #include "Rigidbody.h"
 
-PressurePlate::PressurePlate()
+PressurePlate::PressurePlate() : _entitiesColliding(0)
 {
 }
 
@@ -13,6 +13,7 @@ PressurePlate::~PressurePlate()
 void PressurePlate::onTriggerStart(Entity* other)
 {
 	if (!other->getComponent<Rigidbody>()->isKinematic()) {
+		++_entitiesColliding;
 		activate();
 	}
 }
@@ -20,6 +21,7 @@ void PressurePlate::onTriggerStart(Entity* other)
 void PressurePlate::onTriggerEnd(Entity* other)
 {
 	if (!other->getComponent<Rigidbody>()->isKinematic()) {
+		if((--_entitiesColliding) == 0)
 		deactivate();
 	}
 }

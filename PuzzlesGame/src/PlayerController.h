@@ -1,5 +1,6 @@
 #pragma once
 #include "BasicAI.h"
+#include "Animation.h"
 
 class PlayerController : public Component {
 public:
@@ -25,5 +26,9 @@ private:
 	Transform* _trans;
 	Rigidbody* _rigidbody;
 	BasicAI* _ai;
+	Animation* _an;
+	std::string _idle;
+	std::string _move;
+	bool _moving = false;
 	float _time;	//	Tiempo que ha tardado el jugador en resolver el puzzle
 };

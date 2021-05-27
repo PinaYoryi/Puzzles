@@ -26,6 +26,10 @@ void PlayerController::update()
 		return;
 	}
 
+	if (Input::GetInstance()->keyDown(SDL_SCANCODE_ESCAPE)) {
+		GameManager::GetInstance()->toScene("", sceneState::Pauses);
+	}
+
 	bool input = false;
 	Vector3<> obj = _trans->position();
 	if (Input::GetInstance()->keyHold(SDL_SCANCODE_W)) {

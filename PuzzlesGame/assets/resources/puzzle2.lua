@@ -327,7 +327,7 @@ local mapa = {
           kinematic="true"
         },
         scenetransition={
-          scene="menuprincipal.lua"
+          scene="menufinal.lua"
         }
       }
     },

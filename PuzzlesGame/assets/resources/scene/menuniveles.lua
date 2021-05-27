@@ -25,7 +25,7 @@ local mapa = {
             }
         },
         {
-            name="BotonJ",
+            name="Nivel1",
             id=2,
             components={
                 transform={
@@ -36,9 +36,9 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.35",
+                    position="0.3,0.10",
                     size="240,70",
-                    name="botonJugar",
+                    name="botonNivel1",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
                     type="CHANGE_SCENE",
                     showCursor="true",
@@ -49,7 +49,31 @@ local mapa = {
      	    }
         },
         {
-            name="BotonO",
+            name="Nivel2",
+            id=2,
+            components={
+                transform={
+                    position="0,0,0",
+                    rotation="0,0,0",
+                    scale="1,1,1",
+                    parent="-1"
+                },
+                button={
+                    text="",
+                    position="0.3,0.30",
+                    size="240,70",
+                    name="botonNivel2",
+                    properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
+                    type="CHANGE_SCENE",
+                    showCursor="true",
+                    cursorImage="TaharezLook/MouseGeorgi",
+                    continueBullet="true",
+                    nextScene="puzzle2.lua"
+                }
+     	    }
+        },
+        {
+            name="Nivel3",
             id=3,
             components={
                 transform={
@@ -60,20 +84,20 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.50",
+                    position="0.3,0.45",
                     size="240,70",
-                    name="botonOpciones",
+                    name="botonNivel3",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
                     type="CHANGE_SCENE",
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
                     continueBullet="true",
-                    nextScene="menucontroles.lua"
+                    nextScene="puzzle3.lua"
                 }
      	    }
         },
         {
-            name="BotonN",
+            name="Nivel4",
             id=4,
             components={
                 transform={
@@ -84,20 +108,20 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.65",
+                    position="0.3,0.60",
                     size="240,70",
-                    name="botonNiveles",
+                    name="botonNivel4",
                     properties="NormalImage,TaharezLook/ButtonJugar,HoverImage,TaharezLook/ButtonJugarHover,PushedImage,TaharezLook/ButtonJugarPushed",
                     type="CHANGE_SCENE",
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
                     continueBullet="true",
-                    nextScene="menuniveles.lua"
+                    nextScene="puzzle4.lua"
                 }
      	    }
         },
         {
-            name="BotonS",
+            name="MenuPrincipal",
             id=5,
             components={
                 transform={
@@ -108,15 +132,15 @@ local mapa = {
                 },
                 button={
                     text="",
-                    position="0.4,0.80",
+                    position="0.3,0.80",
                     size="240,70",
-                    name="botonSalir",
-                    properties="NormalImage,TaharezLook/ButtonSalir,HoverImage,TaharezLook/ButtonSalirHover,PushedImage,TaharezLook/ButtonSalirPushed",
-                    type="EXIT",
+                    name="botonMenuppal",
+                    properties="NormalImage,TaharezLook/ButtonMenu,HoverImage,TaharezLook/ButtonMenuHover,PushedImage,TaharezLook/ButtonMenuPushed",
+                    type="CHANGE_SCENE",
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
                     continueBullet="false",
-                    nextScene=""
+                    nextScene="menuprincipal"
                 }
      	    }
         },
@@ -141,25 +165,6 @@ local mapa = {
                     bow="10.0",
                     xsegments="10",
                     ysegments="10"
-                }
-            }
-        },
-        {
-            name="Imagen",
-            id=7,
-            components={
-                transform={
-                    position="0,0,0",
-                    rotation="0,0,0",
-                    scale="1,1,1",
-                    parent="-1"
-                },
-                image={
-                    source="TaharezLook/Ogrevedad",
-                    position="0.30,0.1",
-                    size="450,130",
-                    name="Titulo",
-                    properties="BackgroundEnabled,false,FrameEnabled,false,Image,TaharezLook/Ogrevedad"
                 }
             }
         },

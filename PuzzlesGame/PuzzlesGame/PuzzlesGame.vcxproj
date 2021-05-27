@@ -24,6 +24,7 @@
     <ProjectGuid>{ee616021-8a20-446a-a3b0-14c2ba800ff7}</ProjectGuid>
     <RootNamespace>PuzzlesGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Ogrecabezas</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

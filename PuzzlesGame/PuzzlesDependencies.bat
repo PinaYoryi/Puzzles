@@ -3,7 +3,6 @@ cd ../P32021/bin
 echo comprobando si hay que a copiar
 if not exist ../../PuzzlesGame/bin goto copydependencies
 if not exist ../../PuzzlesGame/bin/plugins.cfg goto copydependencies
-if not exist ../../PuzzlesGame/bin/resources.cfg goto copydependencies
 if not exist ../../PuzzlesGame/bin/Codec_STBI.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/Codec_STBI_d.dll goto copydependencies
 if not exist ../../PuzzlesGame/bin/fmodL64.dll goto copydependencies
@@ -55,8 +54,6 @@ goto endcopy
 :copydependencies
 echo hace falta copiar
 cd ../../PuzzlesGame & mkdir bin & cd ../P32021/bin
-copy /Y plugins.cfg "../../PuzzlesGame/bin/plugins.cfg"
-copy /Y resources.cfg "../../PuzzlesGame/bin/resources.cfg"
 copy /Y Codec_STBI.dll "../../PuzzlesGame/bin/Codec_STBI.dll"
 copy /Y Codec_STBI_d.dll "../../PuzzlesGame/bin/Codec_STBI_d.dll"
 copy /Y fmodL64.dll "../../PuzzlesGame/bin/fmodL64.dll"

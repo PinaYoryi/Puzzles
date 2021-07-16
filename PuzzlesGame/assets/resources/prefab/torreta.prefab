@@ -23,12 +23,9 @@ local prefab = {
             kinematic="true"
         },
         shotai={
-            objective="1",
+            objective="10",
             proyectile="bala.prefab",
             rof="2.5"
-        },
-        lifetime={
-            life="12"
         },
         basicai={
             step="150",

@@ -23,9 +23,6 @@ local prefab = {
           thresholdRot="0.1",
           stepRot="0.0002"
         },
-        lifetime={
-          life="7"
-        },
         rigidbody={
           shape="0",
           mass="1",

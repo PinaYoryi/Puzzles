@@ -365,6 +365,74 @@ local mapa = {
       }
     },
     {
+      name="paredExtra01",
+      id=13,
+      components={
+        transform={
+          position="-5,1,-10",
+          rotation="0,0,0",
+          scale="0.29,0.15,0.03",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="metalPlatform",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="Turreto",
+      id=14,
+      components={
+        transform={
+          position="0.5,2,22",
+          rotation="0,0,0",
+          scale="4,4,4",
+          parent="-1"
+        },
+        renderer={
+          mesh="Malla.mesh",
+          material="",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="10",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.7,0.7",
+          trigger="false",
+          kinematic ="true"
+        },
+         shotai={
+            objective="10",
+            proyectile="bala.prefab",
+            rof="2.5"
+        },
+        basicai={
+            step="150",
+            threshold="0.5",
+            thresholdRot="0.1",
+            stepRot="0.005"
+        },
+        audiosource={
+            sound="MagicSmite.wav", 
+            volume="10",
+            velocity="0,0,0"
+        }
+      }
+    },
+    {
         name="musicBox",
         id=100,
         components={

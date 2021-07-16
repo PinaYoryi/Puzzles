@@ -10,6 +10,9 @@
 #include "SceneTransition.h"
 #include "MusicPlayer.h"
 
+#include "ShootingAI.h"
+#include "DronMissile.h"
+
 
 #if (defined _DEBUG)
 #include <crtdbg.h>
@@ -26,6 +29,8 @@ WinMain(HINSTANCE zhInstance, HINSTANCE prevInstance, LPSTR lpCmdLine, int nCmdS
     ComponentFactoryRegistrations::ComponentFactoryRegistration<Follower>("follower");
     ComponentFactoryRegistrations::ComponentFactoryRegistration<SceneTransition>("scenetransition");
     ComponentFactoryRegistrations::ComponentFactoryRegistration<MusicPlayer>("musicplayer");
+    ComponentFactoryRegistrations::ComponentFactoryRegistration<ShootingAI>("shotai");
+    ComponentFactoryRegistrations::ComponentFactoryRegistration<DronMissile>("dronmissile");
 
     srand(time(NULL));
 

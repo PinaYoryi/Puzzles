@@ -190,6 +190,7 @@ resources.bat</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Door.cpp" />
+    <ClCompile Include="..\src\DronMissile.cpp" />
     <ClCompile Include="..\src\Follower.cpp" />
     <ClCompile Include="..\src\GameManager.cpp" />
     <ClCompile Include="..\src\main.cpp" />
@@ -202,6 +203,7 @@ resources.bat</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Door.h" />
+    <ClInclude Include="..\src\DronMissile.h" />
     <ClInclude Include="..\src\Follower.h" />
     <ClInclude Include="..\src\GameManager.h" />
     <ClInclude Include="..\src\Mechanism.h" />

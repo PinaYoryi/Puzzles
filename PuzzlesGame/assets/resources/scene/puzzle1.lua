@@ -311,7 +311,7 @@ local mapa = {
     },
     {
       name="box",
-      id=10,
+      id=11,
       components={
         transform={
           position="-15,2,0",

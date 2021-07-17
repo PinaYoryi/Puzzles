@@ -140,7 +140,7 @@ local mapa = {
                     showCursor="true",
                     cursorImage="TaharezLook/MouseGeorgi",
                     continueBullet="true",
-                    nextScene="puzzle1.lua"
+                    nextScene="puzzleE.lua"
                 }
      	    }
         },

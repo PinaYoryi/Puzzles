@@ -25,7 +25,7 @@ local prefab = {
         shotai={
             objective="10",
             proyectile="bala.prefab",
-            rof="2.5"
+            rof="3.7"
         },
         basicai={
             step="150",

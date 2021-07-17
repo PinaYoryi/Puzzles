@@ -206,9 +206,9 @@ local mapa = {
       id=8,
       components={
         transform={
-          position="15,3,0",
+          position="28,3,-3",
           rotation="0,0,0",
-          scale="5,5,5",
+          scale="4.6,4.6,4.6",
           parent="-1"
         },
         pressureplate={
@@ -270,7 +270,7 @@ local mapa = {
       id=10,
       components={
         transform={
-          position="-15,5,15",
+          position="16,5,-25",
           rotation="0,0,0",
           scale="1,1,1",
           parent="-1"
@@ -314,9 +314,9 @@ local mapa = {
       id=11,
       components={
         transform={
-          position="-15,2,0",
+          position="-20,2,6",
           rotation="0,0,0",
-          scale="3,3,3",
+          scale="2.2,2.2,2.2",
           parent="-1"
         },
         renderer={
@@ -369,9 +369,87 @@ local mapa = {
       id=13,
       components={
         transform={
-          position="-5,1,-10",
+          position="16,1,-19",
           rotation="0,0,0",
-          scale="0.29,0.15,0.03",
+          scale="0.12,0.12,0.03",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="metalPlatform",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="paredExtra02",
+      id=14,
+      components={
+        transform={
+          position="-14,1,23",
+          rotation="0,90,0",
+          scale="0.14,0.12,0.02",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="metalPlatform",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="paredExtra03",
+      id=15,
+      components={
+        transform={
+          position="-15,1,-7",
+          rotation="0,0,0",
+          scale="0.05,0.12,0.02",
+          parent="-1"
+        },
+        renderer={
+          mesh="cube.mesh",
+          material="metalPlatform",
+          visible="true"
+        },
+        rigidbody={
+          shape="0",
+          mass="0",
+          inertia="0,0,0",
+          restitution="0.2",
+          damping="0.2,0.2",
+          trigger="false",
+          kinematic="true"
+        }
+      }
+    },
+    {
+      name="paredExtra04",
+      id=15,
+      components={
+        transform={
+          position="10,1,4",
+          rotation="0,0,0",
+          scale="0.05,0.12,0.02",
           parent="-1"
         },
         renderer={
@@ -392,10 +470,10 @@ local mapa = {
     },
     {
       name="Turreto",
-      id=14,
+      id=17,
       components={
         transform={
-          position="0.5,2,22",
+          position="7,2,25",
           rotation="0,0,0",
           scale="4,4,4",
           parent="-1"
@@ -417,7 +495,7 @@ local mapa = {
          shotai={
             objective="10",
             proyectile="bala.prefab",
-            rof="2.5"
+            rof="3.7"
         },
         basicai={
             step="150",

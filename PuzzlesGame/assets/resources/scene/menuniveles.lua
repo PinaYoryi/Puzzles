@@ -121,6 +121,30 @@ local mapa = {
      	    }
         },
         {
+            name="NivelE",
+            id=9,
+            components={
+                transform={
+                    position="0,0,0",
+                    rotation="0,0,0",
+                    scale="1,1,1",
+                    parent="-1"
+                },
+                button={
+                    text="",
+                    position="0.59,0.48",
+                    size="240,100",
+                    name="ButtonNivelE",
+                    properties="NormalImage,TaharezLook/ButtonNivelE,HoverImage,TaharezLook/ButtonNivelE,PushedImage,TaharezLook/ButtonNivelE",
+                    type="CHANGE_SCENE",
+                    showCursor="true",
+                    cursorImage="TaharezLook/MouseGeorgi",
+                    continueBullet="true",
+                    nextScene="puzzle1.lua"
+                }
+     	    }
+        },
+        {
             name="MenuPrincipal",
             id=6,
             components={

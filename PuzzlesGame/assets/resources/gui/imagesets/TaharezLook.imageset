@@ -276,4 +276,5 @@
     <Image height="32" name="Ogrecabezas" width="250" xPos="0" yPos="425" />
     <Image height="32" name="Ganaste" width="250" xPos="0" yPos="465" />
     <Image height="300" name="Controles" width="550" xPos="0" yPos="505" />
+    <Image height="44" name="ButtonNivelE" width="90" xPos="449" yPos="417" />
 </Imageset>

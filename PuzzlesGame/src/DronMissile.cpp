@@ -7,10 +7,12 @@ bool DronMissile::init(const std::map<std::string, std::string>& mapa) {
 }
 
 void DronMissile::onCollisionStart(Entity* other) {
-	//if (other->getName() != "Turret") {
-	//	if (other->getName() == "Player") {
-	//		//other->getComponent<PlayerController>()->playerDead();
-	//	}
-	//	SceneManager::GetInstance()->addEntityToRemove(_myEntity);	// No hace nada (???)
-	//}
+	if (other->getName() == "Player") {
+		//destruye el obj y luego se ejecuta la función para determinar el reinicio de partida
+		SceneManager::GetInstance()->addEntityToRemove(_myEntity);
+		other->getComponent<PlayerController>()->resetLevel();	
+	}
+	else {	
+		SceneManager::GetInstance()->addEntityToRemove(_myEntity); //destruye el obj si colisiona con otro obj que no sea el player	
+	}
 }

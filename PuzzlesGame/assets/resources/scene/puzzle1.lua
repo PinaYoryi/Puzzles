@@ -35,7 +35,7 @@ local mapa = {
         transform={
           position="-20,1,-36",
           rotation="0,0,0",
-          scale="0.29,0.15,0.03",
+          scale="0.29,0.11,0.03",
           parent="-1"
         },
         renderer={
@@ -61,7 +61,7 @@ local mapa = {
         transform={
           position="20,1,-36",
           rotation="0,0,0",
-          scale="0.29,0.15,0.03",
+          scale="0.29,0.11,0.03",
           parent="-1"
         },
         renderer={
@@ -87,7 +87,7 @@ local mapa = {
         transform={
           position="0,1,36",
           rotation="0,0,0",
-          scale="0.75,0.15,0.03",
+          scale="0.75,0.11,0.03",
           parent="-1"
         },
         renderer={
@@ -113,7 +113,7 @@ local mapa = {
         transform={
           position="-36,1,0",
           rotation="0,0,0",
-          scale="0.03,0.15,0.75",
+          scale="0.03,0.11,0.75",
           parent="-1"
         },
         renderer={
@@ -139,7 +139,7 @@ local mapa = {
         transform={
           position="36,1,0",
           rotation="0,0,0",
-          scale="0.03,0.15,0.75",
+          scale="0.03,0.11,0.75",
           parent="-1"
         },
         renderer={
@@ -371,7 +371,7 @@ local mapa = {
         transform={
           position="16,1,-19",
           rotation="0,0,0",
-          scale="0.12,0.12,0.03",
+          scale="0.12,0.05,0.03",
           parent="-1"
         },
         renderer={
@@ -381,12 +381,12 @@ local mapa = {
         },
         rigidbody={
           shape="0",
-          mass="0",
+          mass="2000",
           inertia="0,0,0",
           restitution="0.2",
           damping="0.2,0.2",
           trigger="false",
-          kinematic="true"
+          kinematic="false"
         }
       }
     },
@@ -397,7 +397,7 @@ local mapa = {
         transform={
           position="-14,1,23",
           rotation="0,90,0",
-          scale="0.14,0.12,0.02",
+          scale="0.14,0.05,0.02",
           parent="-1"
         },
         renderer={
@@ -407,12 +407,12 @@ local mapa = {
         },
         rigidbody={
           shape="0",
-          mass="0",
+          mass="2000",
           inertia="0,0,0",
           restitution="0.2",
           damping="0.2,0.2",
           trigger="false",
-          kinematic="true"
+          kinematic="false"
         }
       }
     },
@@ -422,8 +422,8 @@ local mapa = {
       components={
         transform={
           position="-15,1,-7",
-          rotation="0,0,0",
-          scale="0.05,0.12,0.02",
+          rotation="0,25,0",
+          scale="0.05,0.05,0.02",
           parent="-1"
         },
         renderer={
@@ -433,12 +433,12 @@ local mapa = {
         },
         rigidbody={
           shape="0",
-          mass="0",
+          mass="2000",
           inertia="0,0,0",
           restitution="0.2",
           damping="0.2,0.2",
           trigger="false",
-          kinematic="true"
+          kinematic="false"
         }
       }
     },
@@ -449,7 +449,7 @@ local mapa = {
         transform={
           position="10,1,4",
           rotation="0,0,0",
-          scale="0.05,0.12,0.02",
+          scale="0.05,0.05,0.02",
           parent="-1"
         },
         renderer={
@@ -459,12 +459,12 @@ local mapa = {
         },
         rigidbody={
           shape="0",
-          mass="0",
+          mass="2000",
           inertia="0,0,0",
           restitution="0.2",
           damping="0.2,0.2",
           trigger="false",
-          kinematic="true"
+          kinematic="false"
         }
       }
     },
